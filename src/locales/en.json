@@ -52,696 +52,503 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Marvel Rivals Season 9 Gameplay",
+    "description": "Master 6v6 super hero team combat in Marvel Rivals Season 9 — new heroes, Team-Up abilities, Regenerative Shields, and the Mystery of Thebes season on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Marvel Rivals Season 9",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need for Marvel Rivals Season 9 — codes, tier list, patch notes, heroes, and the battle pass",
     "cards": [
       {
+        "icon": "CalendarClock",
+        "title": "Marvel Rivals Season 9 Release Date",
+        "description": "Launch date, roadmap, and first things to check"
+      },
+      {
+        "icon": "Gift",
+        "title": "Marvel Rivals Season 9 Codes",
+        "description": "Bundle codes, Twitch Drops, and free rewards"
+      },
+      {
+        "icon": "Users",
+        "title": "Marvel Rivals Season 9 Heroes",
+        "description": "Jubilee, The Hood, roles, and abilities"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Marvel Rivals Season 9 Tier List",
+        "description": "Best heroes, meta shifts, and team comps"
+      },
+      {
+        "icon": "Gem",
+        "title": "Marvel Rivals Season 9 Battle Pass",
+        "description": "Deaths on the Nile pass, skins, and rewards"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Marvel Rivals Season 9 Patch Notes",
+        "description": "Buffs, nerfs, and Regenerative Shields"
+      },
+      {
+        "icon": "Swords",
+        "title": "Marvel Rivals Season 9 Team-Ups",
+        "description": "Best pairings, synergies, and comps"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Marvel Rivals Season 9 Beginner Guide",
+        "description": "How to start, roles, and 6v6 basics"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "season9ReleaseRoadmap": {
+      "title": "Marvel Rivals Season 9 Release Date and Roadmap",
+      "displayType": "table",
+      "intro": "Marvel Rivals Season 9 is titled The Mystery of Thebes. The update focuses on the Thebes storyline, a fresh hero launch, Regenerative Shields, Ultimate energy changes, and a large Team-Up balance pass.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Season Name",
+          "value": "Season 9: The Mystery of Thebes",
+          "details": "The new season centers on Thebes and the Apocalypse storyline shown in the Season 9 reveal."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "Release Date",
+          "value": "July 10, 2026 UTC",
+          "details": "Marvel Rivals Season 9 begins globally on July 10 UTC."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "Main Update Focus",
+          "value": "New hero, new map, global balance changes",
+          "details": "The official Dev Vision highlights fresh gameplay changes, the latest hero, and a brand-new map."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "label": "Launch Hero",
+          "value": "Jubilee",
+          "details": "Jubilee arrives with Season 9 as a Strategist built around pyrotechnic energy, healing support, hover movement, and enemy knockback pressure."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "label": "New Map",
+          "value": "Thebes Convoy Map",
+          "details": "Thebes is the Marvel Rivals Season 9 map addition tied to the season theme and convoy gameplay."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "First Things to Check",
+          "value": "Balance post, Team-Up changes, hero page, Twitch Drops",
+          "details": "Players should review Ultimate energy changes, Regenerative Shields, hero adjustments, active events, and reward pages before jumping into ranked."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "season9CodesRewards": {
+      "title": "Marvel Rivals Season 9 Codes and Free Rewards",
+      "displayType": "code-cards",
+      "intro": "Marvel Rivals rewards are handled through official bundle-code pages, in-game Bundle Code redemption, Twitch Drops, and limited event announcements. Use only official reward pages and the in-game mail system for claims.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Marvel Rivals Infinity Reward",
+          "type": "Official Redeem Page",
+          "code": "REDEEM THROUGH MARVEL.COM",
+          "reward": "Marvel Rivals Infinity campaign in-game item",
+          "howToClaim": "Open the official Marvel redeem page, follow the account and redemption flow, then claim the reward in game."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Bundle Code Menu",
+          "type": "In-Game Code Redemption",
+          "code": "ENTER OFFICIAL BUNDLE CODES ONLY",
+          "reward": "Bundle rewards vary by official campaign",
+          "howToClaim": "Press ESC in the lobby, open the system menu, choose Bundle Code, enter the official code, then click Use."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Twitch Drops",
+          "type": "Watch Reward",
+          "code": "NO CODE REQUIRED",
+          "reward": "Drop rewards from Marvel Rivals Twitch campaigns",
+          "howToClaim": "Log in, link your Twitch account, watch Marvel Rivals category streams with Drops enabled, claim from Twitch inventory, then check in-game mail."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "name": "Event Rewards",
+          "type": "Official News and Events",
+          "code": "CHECK OFFICIAL EVENTS",
+          "reward": "Limited-time cosmetics, campaign items, and event bonuses",
+          "howToClaim": "Follow the official News, Events, and Twitch Drops pages during Season 9 and claim rewards before campaign deadlines."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "season9NewHeroes": {
+      "title": "Marvel Rivals Season 9 New Heroes",
+      "displayType": "card-list",
+      "intro": "The Season 9 reveal focuses on The Mystery of Thebes, Apocalypse, Jubilee, and The Hood. Jubilee is the immediate gameplay focus because she arrives with the July 10 UTC update as a Strategist support hero.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "hero": "Jubilee",
+          "releasePosition": "Season 9 launch hero",
+          "role": "Strategist",
+          "playstyle": "Pyrotechnic support with healing, damage pressure, short aerial movement, healing bubbles, and crowd-control knockback.",
+          "keyAbilities": [
+            "Firework-style energy projectiles",
+            "Healing support for teammates",
+            "Brief hover movement after jumping",
+            "Healing bubble utility",
+            "Ultimate knockback for displacement and environmental pressure"
+          ],
+          "loreHook": "Jubilee is tied to Apocalypse in the Season 9 story as the Horseman of Famine while trying to save her son Shogo."
+        },
+        {
+          "hero": "The Hood",
+          "releasePosition": "Season 9 follow-up hero",
+          "role": "Season 9 roster addition",
+          "playstyle": "Villain-focused hero teased in the Season 9 reveal alongside Jubilee and Apocalypse.",
+          "keyAbilities": [
+            "Official Season 9 reveal appearance",
+            "Thebes storyline connection",
+            "Roster expansion after Jubilee"
+          ],
+          "loreHook": "The Hood is positioned as part of the Season 9 character rollout connected to The Mystery of Thebes."
+        },
+        {
+          "hero": "Apocalypse",
+          "releasePosition": "Season 9 story focus",
+          "role": "Season antagonist",
+          "playstyle": "Central trailer figure and storyline driver rather than a confirmed launch playable hero.",
+          "keyAbilities": [
+            "Thebes storyline centerpiece",
+            "Jubilee Horseman connection",
+            "Season 9 cinematic focus"
+          ],
+          "loreHook": "Apocalypse drives the Thebes conflict and appears as the major narrative force in the Season 9 trailer."
+        }
+      ]
+    },
+    "season9TierListMeta": {
+      "title": "Marvel Rivals Season 9 Tier List and Meta",
+      "displayType": "tier-grid",
+      "intro": "The Marvel Rivals Season 9 balance update reduces Ultimate energy generation for Vanguards, Duelists, and Strategists, introduces Regenerative Shields, and adjusts heroes around the new Team-Up system. These changes make shield sustain, Team-Up synergy, and reliable healing windows more important for ranked play.",
+      "items": [
+        {
+          "tier": "Top Meta Drivers",
+          "roleFocus": "Vanguard and Strategist",
+          "heroes": [
+            "Doctor Strange",
+            "Devil Dinosaur",
+            "Groot",
+            "Cloak & Dagger",
+            "Luna Snow",
+            "Ultron"
+          ],
+          "whyItMatters": "Doctor Strange gains more health and stronger Shield of the Seraphim, Devil Dinosaur and Groot receive stronger frontline durability, Cloak & Dagger gain broad healing buffs, Luna Snow increases healing boost power, and Ultron improves drone area healing.",
+          "playerTakeaway": "Build around strong frontline protection and high-value healing windows."
+        },
+        {
+          "tier": "Strong Team-Up Watch",
+          "roleFocus": "Team-Up Synergy",
+          "heroes": [
+            "Psylocke",
+            "Mantis",
+            "Adam Warlock",
+            "The Punisher",
+            "Elsa Bloodstone",
+            "Doctor Strange"
+          ],
+          "whyItMatters": "Psylocke gains extra value with Emma Frost or Cloak & Dagger, Mantis receives stronger effects with Star-Lord or Adam Warlock, Adam Warlock benefits from Ultron synergy, The Punisher gains damage back when paired with Daredevil, Elsa Bloodstone gains pellet damage with Devil Dinosaur, and Doctor Strange gains extra shield value with Invisible Woman.",
+          "playerTakeaway": "Pick heroes with their intended Team-Up partners instead of judging them only by solo numbers."
+        },
+        {
+          "tier": "Regenerative Shield Frontliners",
+          "roleFocus": "Vanguard Sustain",
+          "heroes": [
+            "Angela",
+            "Captain America",
+            "Hulk",
+            "Rogue",
+            "Thor",
+            "Venom"
+          ],
+          "whyItMatters": "Season 9 adds Regenerative Shields to multiple frontline heroes. These shields begin recovering after avoiding damage for 5 seconds and fully recover chargeable shield points over the next 5 seconds.",
+          "playerTakeaway": "Use cover, disengage timing, and re-entry paths to refresh shield value before the next fight."
+        },
+        {
+          "tier": "Damage Role Adjustments",
+          "roleFocus": "Duelist Changes",
+          "heroes": [
+            "Hela",
+            "Hawkeye",
+            "Storm",
+            "Cyclops",
+            "Iron Man",
+            "The Punisher"
+          ],
+          "whyItMatters": "Hela gains higher Nightsword Thorn damage and freer Crow movement, Hawkeye gains faster and stronger partially charged arrows, and Storm gains Wind Blade damage. Cyclops, Iron Man, and The Punisher receive baseline damage reductions tied to overall Team-Up balance.",
+          "playerTakeaway": "Expect stronger value from precise poke heroes, but check Team-Up pairings before locking damage picks."
+        },
+        {
+          "tier": "Support Meta Notes",
+          "roleFocus": "Strategist Healing",
+          "heroes": [
+            "Cloak & Dagger",
+            "Gambit",
+            "Invisible Woman",
+            "Luna Snow",
+            "Rocket Raccoon",
+            "White Fox"
+          ],
+          "whyItMatters": "Strategist healing-to-Ultimate energy conversion drops from 75% to 60%, while multiple Strategists receive direct healing, utility, or Ultimate adjustments.",
+          "playerTakeaway": "Healing output still matters, but Ultimate timing is slower, so teams should fight around cooldowns and positioning more carefully."
+        }
+      ]
+    },
+    "season9BattlePass": {
+      "title": "Marvel Rivals Season 9 Battle Pass and Skins",
+      "displayType": "card-list",
+      "intro": "The Deaths on the Nile Battle Pass connects Marvel Rivals Season 9 cosmetics to The Mystery of Thebes storyline. It focuses on themed costumes, cosmetic progression, and a premium upgrade that permanently unlocks Battle Pass access for long-term claiming.",
+      "items": [
+        {
+          "title": "Battle Pass Theme",
+          "badge": "Deaths on the Nile",
+          "description": "The Marvel Rivals Season 9 Battle Pass follows the aftermath of Apocalypse's fall, where unexplained deaths begin surfacing across the Nile-themed mystery.",
+          "highlights": [
+            "Part of Season 9: The Mystery of Thebes",
+            "Launches with Season 9 on July 10 UTC",
+            "Uses the Faith Harvesting Engine as the seasonal reward framing"
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Main Reward Hook",
+          "badge": "10 Costumes",
+          "description": "The Battle Pass headline reward is 10 new costumes, making it the core cosmetic track for Season 9 collectors.",
+          "highlights": [
+            "10 new costumes included",
+            "Focused on Season 9 mystery and ancient Thebes styling",
+            "Designed for players who want themed hero looks"
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "Premium Battle Pass",
+          "badge": "Permanent Access",
+          "description": "Upgrading to the premium Battle Pass permanently unlocks the pass, so players can keep progressing through premium rewards over time.",
+          "highlights": [
+            "Premium ownership keeps the pass accessible",
+            "Good for players who cannot finish every reward immediately",
+            "Gameplay heroes remain free, so the pass is mainly cosmetic value"
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Buy or Skip Guide",
+          "badge": "Best For Collectors",
+          "description": "The pass is most useful for players who want Marvel Rivals Season 9 costumes, profile cosmetics, and themed progression.",
+          "highlights": [
+            "Buy for costumes and account cosmetics",
+            "Skip if you only care about matches, heroes, and balance changes",
+            "Check the in-game preview before spending currency"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+    "season9PatchNotes": {
+      "title": "Marvel Rivals Season 9 Patch Notes",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+      "intro": "Marvel Rivals Season 9 is a large gameplay update, not just a hero patch. The biggest changes are slower Ultimate generation, the arrival of Regenerative Shields, broad Team-Up anchor bonus removals, and targeted buffs or nerfs across Vanguard, Duelist, and Strategist heroes.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "title": "Global Ultimate Energy Changes",
+          "summary": "Ultimate generation is slower across damage and healing sources.",
+          "details": [
+            "Vanguards and Duelists: damage-to-energy conversion reduced from 70% to 55%.",
+            "Strategists: healing-to-energy conversion reduced from 75% to 60%.",
+            "Strategists: damage-to-energy conversion reduced from 75% to 55%."
+          ]
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "title": "Regenerative Shields",
+          "summary": "Season 9 introduces a new health type that rewards avoiding damage.",
+          "details": [
+            "Regenerative Shields follow the same logic as base Health for percentage-based healing and damage.",
+            "After avoiding damage for 5 seconds, shields begin regenerating automatically.",
+            "Chargeable shield points fully recover over the next 5 seconds."
+          ]
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "title": "Vanguard Highlights",
+          "summary": "Several frontliners trade raw health for Regenerative Shields or receive survivability tuning.",
+          "details": [
+            "Captain America changes from 600 base Health to 300 base Health plus 300 Regenerative Shield.",
+            "Hulk changes from 650 base Health to 400 base Health plus 300 Regenerative Shield, while Heavy Blow damage rises from 40 to 45.",
+            "Doctor Strange gains 650 base Health and Shield of the Seraphim increases from 700 to 850 shield value.",
+            "Devil Dinosaur base Health increases from 750 to 850."
+          ]
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "title": "Duelist Highlights",
+          "summary": "Season 9 adjusts poke damage, mobility, and Team-Up-driven burst potential.",
+          "details": [
+            "Cyclops has Optic Blast damage reduced from 25 to 21 and both Propulsion Burst and Optic Ascent cooldowns increased from 12s to 15s.",
+            "Hela's Nightsword Thorn base damage increases from 70 to 80 and Astral Flock gains free directional flight.",
+            "Iron Man receives Repulsor Blast and Unibeam reductions to offset strong Team-Up synergy.",
+            "Psylocke gains stronger partner effects with Emma Frost and Cloak & Dagger."
+          ]
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "title": "Strategist Highlights",
+          "summary": "Support heroes receive healing, ammo, Ultimate, and partner-based adjustments.",
+          "details": [
+            "Cloak & Dagger receive stronger direct healing, field healing, Veil of Lightforce healing, and Dagger Storm healing.",
+            "Luna Snow loses the damage boost from Number One Idol but increases its Healing Boost from 10% to 20%.",
+            "Rocket Raccoon's Repair Mode healing rises from 50 to 55, while C.Y.A. costs more Ultimate energy and gains distance falloff.",
+            "Ultron's Imperative: Firewall drone area healing increases from 30/s to 35/s."
+          ]
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Team-Up Anchor Bonus Cleanup",
+          "summary": "Many flat Team-Up Anchor bonuses are removed so Season 9 can balance around specific partner effects.",
+          "details": [
+            "Multiple heroes lose flat bonus Health, Damage Boost, or Healing Boost from Team-Up Anchor effects.",
+            "The patch now emphasizes direct partner bonuses, such as Doctor Strange with Invisible Woman or Adam Warlock with Ultron.",
+            "Team building matters more because specific hero pairs can change damage, healing, ammo, shielding, or survivability."
+          ]
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "season9TeamUpGuide": {
+      "title": "Marvel Rivals Season 9 Team-Up Abilities Guide",
+      "displayType": "card-list",
+      "intro": "The Marvel Rivals Season 9 Team-Up update removes many old flat anchor bonuses and shifts value toward direct hero-pair effects. Players should build teams by checking which partner bonuses improve their role: frontline stability, burst damage, healing output, or utility uptime.",
+      "items": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "title": "Doctor Strange + Invisible Woman",
+          "badge": "Shield Control",
+          "description": "When Invisible Woman is selected as Doctor Strange's Team-Up partner, Shield of the Seraphim gains an additional 150 shield value for a total of 1000.",
+          "bestFor": [
+            "Frontline protection",
+            "Choke defense",
+            "Teams that want stronger barrier uptime"
+          ]
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "title": "Elsa Bloodstone + Devil Dinosaur",
+          "badge": "Damage Boost",
+          "description": "When Devil Dinosaur is selected as Elsa Bloodstone's Team-Up partner, Double-Barrel Blaster pellet damage increases from 4.5 to 5.",
+          "bestFor": [
+            "Close-range pressure",
+            "Tank-backed pushes",
+            "Burst damage windows"
+          ]
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "title": "The Punisher + Daredevil",
+          "badge": "Weapon Damage",
+          "description": "Punisher's baseline weapon damage is reduced, but pairing with Daredevil restores Adjudication and Deliverance damage through the Team-Up effect.",
+          "bestFor": [
+            "Hitscan-focused teams",
+            "Mid-range pressure",
+            "Daredevil dive follow-up"
+          ]
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "title": "Psylocke + Emma Frost",
+          "badge": "Bonus Health",
+          "description": "With Emma Frost as partner, Psylocke gains more Bonus Health from Wing Shurikens, rising from 10 to 15 per hit.",
+          "bestFor": [
+            "Flank survivability",
+            "Dive entries",
+            "Players who need safer backline pressure"
+          ]
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "title": "Psylocke + Cloak & Dagger",
+          "badge": "Crossbow Damage",
+          "description": "With Cloak & Dagger as partners, Psylocke's Psionic Crossbow single-hit base damage increases from 13 to 14.",
+          "bestFor": [
+            "Assassin playstyles",
+            "Support-backed dives",
+            "Finishing low-health targets"
+          ]
+        },
+        {
+          "title": "Adam Warlock + Ultron",
+          "badge": "Ammo Utility",
+          "description": "When Ultron is selected as Adam Warlock's Team-Up partner, Quantum Magic ammo capacity increases from 15 to 25.",
+          "bestFor": [
+            "Sustained healing rhythm",
+            "Long fights",
+            "Support players who need fewer reload gaps"
+          ]
+        },
+        {
+          "title": "Mantis + Star-Lord",
+          "badge": "Healing Output",
+          "description": "When Star-Lord is selected as Mantis's Team-Up partner, Healing Flower improves from 10 plus 2.5% of target max Health per second to 15 plus 3% per second.",
+          "bestFor": [
+            "Mobile Duelist support",
+            "Sustained team fights",
+            "Healing high-health allies"
+          ]
+        },
+        {
+          "title": "Mantis + Adam Warlock",
+          "badge": "Self-Sustain",
+          "description": "When Adam Warlock is selected as partner, Mantis increases self-healing from 12.5/s to 17.5/s during Natural Anger.",
+          "bestFor": [
+            "Safer support positioning",
+            "Surviving pressure",
+            "Longer support uptime"
+          ]
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "season9BeginnerGuide": {
+      "title": "How to Start Marvel Rivals Season 9",
+      "displayType": "step-by-step",
+      "intro": "Marvel Rivals is a free-to-play Super Hero team-based PvP shooter with fast 6v6 combat, destructible environments, and Team-Up abilities. Season 9 adds new balance rules, Regenerative Shields, and new Team-Up priorities, so beginners should learn the basics before chasing advanced meta picks.",
+      "items": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "step": 1,
+          "title": "Download the Game",
+          "description": "Install Marvel Rivals on your preferred platform. Official download links cover Windows, Steam, Epic, Xbox Series X|S, PlayStation 5, PlayStation 5 Pro, and PlayStation 4.",
+          "tips": [
+            "Steam lists the game as Free To Play.",
+            "PC players should check storage and hardware requirements before installing.",
+            "Use the official website or official store pages to avoid wrong downloads."
+          ]
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "step": 2,
+          "title": "Learn the 6v6 Flow",
+          "description": "Marvel Rivals is built around fast team fights where two teams battle with Marvel heroes and villains across changing, destructible maps.",
+          "tips": [
+            "Stay near teammates instead of taking isolated fights.",
+            "Use map cover and destructible terrain to survive pushes.",
+            "Focus objectives first, eliminations second."
+          ]
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "step": 3,
+          "title": "Pick a Main Role",
+          "description": "Start with one role, then learn one backup role. Vanguards hold space, Duelists pressure and secure eliminations, and Strategists keep allies alive through healing, buffs, and utility.",
+          "tips": [
+            "Beginner-friendly path: one Vanguard, one Duelist, one Strategist.",
+            "Do not lock only damage heroes if the team lacks frontline or healing.",
+            "Watch how your role changes your positioning."
+          ]
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "step": 4,
+          "title": "Use Team-Up Abilities",
+          "description": "Team-Up abilities are a core Marvel Rivals mechanic. Season 9 makes partner choices more important because many bonuses now depend on specific hero pairings.",
+          "tips": [
+            "Check your team's heroes before locking your pick.",
+            "Try simple pairs like Doctor Strange with Invisible Woman or Adam Warlock with Ultron.",
+            "Change heroes if your team composition has no useful synergy."
+          ]
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Read the Season 9 Patch Basics",
+          "description": "Before ranked play, learn the Marvel Rivals Season 9 changes to Ultimate energy, Regenerative Shields, and role balance.",
+          "tips": [
+            "Ultimates build slower from damage and healing than before.",
+            "Regenerative Shields recover after avoiding damage.",
+            "Heroes with shield changes may need different retreat timing."
+          ]
         }
       ]
     }
@@ -749,31 +556,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Marvel Rivals Season 9",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Marvel Rivals Season 9: The Mystery of Thebes?",
+        "answer": "Marvel Rivals Season 9 is titled The Mystery of Thebes. It adds a new hero, a new Thebes convoy map, Regenerative Shields, Team-Up system changes, and a large balance update on July 10 UTC."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When does Marvel Rivals Season 9 start?",
+        "answer": "Marvel Rivals Season 9 begins globally on July 10, 2026 UTC. Players should check the balance post, Team-Up changes, and reward pages before the season goes live."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Who is the new hero in Marvel Rivals Season 9?",
+        "answer": "Jubilee is the Marvel Rivals Season 9 launch hero, arriving as a Strategist with pyrotechnic healing, hover movement, and knockback utility. The Hood is teased as the next Season 9 roster addition."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What is included in the Marvel Rivals Season 9 Battle Pass?",
+        "answer": "The Marvel Rivals Season 9 Battle Pass is Deaths on the Nile. It centers on 10 new costumes and themed progression, with a premium upgrade that permanently unlocks the pass for long-term claiming."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Where can I download and play Marvel Rivals Season 9?",
+        "answer": "You can play Marvel Rivals Season 9 on Steam, Epic, Xbox Series X|S, PlayStation 5, PlayStation 5 Pro, and PlayStation 4. The game is free to play, and Season 9 content unlocks on July 10 UTC."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Marvel Rivals Season 9 free to play?",
+        "answer": "Yes. Marvel Rivals Season 9 is free to play. All gameplay heroes are free, and the Battle Pass only adds cosmetic rewards, so you can enjoy the full season without spending money."
       }
     ]
   },
@@ -802,10 +609,10 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
+      "title": "Marvel Rivals Season 9 Guides",
       "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaTitle": "Marvel Rivals Season 9 Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Marvel Rivals Season 9 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
@@ -822,10 +629,10 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
+      "title": "Marvel Rivals Season 9 Crafting",
       "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "metaTitle": "Marvel Rivals Season 9 Crafting - Apotheosis System & Recipes",
+      "metaDescription": "Master Marvel Rivals Season 9 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
       "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
@@ -842,10 +649,10 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "Marvel Rivals Season 9 Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "Marvel Rivals Season 9 Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for Marvel Rivals Season 9 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
@@ -862,10 +669,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "Marvel Rivals Season 9 Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "Marvel Rivals Season 9 Biomes - World Regions & Exploration",
+      "metaDescription": "Explore Marvel Rivals Season 9 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -882,10 +689,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "Marvel Rivals Season 9 Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "Marvel Rivals Season 9 Building - Qualia & Base Construction",
+      "metaDescription": "Master Marvel Rivals Season 9 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -902,10 +709,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Marvel Rivals Season 9 Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "Marvel Rivals Season 9 Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Marvel Rivals Season 9 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
