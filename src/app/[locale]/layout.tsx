@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.marvelrivalsseason9.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Marvel Rivals Season 9 Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Marvel Rivals Season 9 - 6v6 Super Hero Team Shooter",
         },
       ],
     },
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      creator: "@MarvelRivals",
     },
     icons: {
       icon: [
@@ -110,6 +110,33 @@ export default async function LocaleLayout({ children, params }: Props) {
   // 获取翻译消息
   const messages = await getMessages();
   const navPreviewData = await getNavPreviewData(locale as Language);
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.marvelrivalsseason9.wiki";
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    name: "Marvel Rivals Season 9 Wiki",
+    url: siteUrl,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteUrl}/android-chrome-512x512.png`,
+      width: 512,
+      height: 512,
+    },
+    image: {
+      "@type": "ImageObject",
+      url: `${siteUrl}/images/hero.webp`,
+      width: 1920,
+      height: 1080,
+    },
+    sameAs: [
+      "https://store.steampowered.com/app/2767030/Marvel_Rivals/",
+      "https://discord.com/invite/marvelrivals",
+      "https://www.reddit.com/r/MarvelRivals/",
+      "https://www.youtube.com/@MarvelRivals",
+      "https://x.com/MarvelRivals",
+    ],
+  };
 
 	return (
 		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
@@ -123,6 +150,10 @@ export default async function LocaleLayout({ children, params }: Props) {
 				/>
 			</head>
 			<body suppressHydrationWarning className="antialiased">
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+				/>
 				<Analytics />
 				<NextIntlClientProvider messages={messages}>
 					<ClientBody navPreviewData={navPreviewData}>{children}</ClientBody>

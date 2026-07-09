@@ -13,7 +13,7 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.marvelrivalsseason9.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -54,11 +54,11 @@ export function ArticleStructuredData({
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Marvel Rivals Season 9 Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Marvel Rivals Season 9 Wiki',
 			logo: {
 				'@type': 'ImageObject',
 				url: `${siteUrl}/images/hero.webp`,

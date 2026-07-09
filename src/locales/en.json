@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Marvel Rivals Season 9 Wiki - Heroes, Tier Lists & Codes",
+      "description": "Marvel Rivals Season 9 Wiki covers every hero, tier lists, Season 9 'Mystery of Thebes' updates, the new map, and the latest redeem codes for the free-to-play 6v6 super hero team shooter.",
+      "keywords": "Marvel Rivals, Marvel Rivals Season 9, Marvel Rivals wiki, heroes, tier list, redeem codes, Mystery of Thebes, 6v6 shooter",
+      "ogTitle": "Marvel Rivals Season 9 Wiki - Heroes, Tier Lists & Codes",
+      "ogDescription": "Marvel Rivals Season 9 Wiki covers every hero, tier lists, Season 9 'Mystery of Thebes' updates, the new map, and the latest redeem codes for the free-to-play 6v6 super hero team shooter.",
+      "twitterTitle": "Marvel Rivals Season 9 Wiki - Heroes, Tier Lists & Codes",
+      "twitterDescription": "Marvel Rivals Season 9 Wiki — heroes, tier lists, Season 9 'Mystery of Thebes' updates, the new map, and the latest redeem codes."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "6v6 Super Hero Team Shooter",
+    "title": "Marvel Rivals Season 9",
+    "description": "Master every hero, climb the Season 9 'Mystery of Thebes' ranks, and grab the latest redeem codes for Marvel Rivals — the free-to-play 6v6 super hero team shooter on Steam.",
+    "getFreeCodesCTA": "Get Free Codes",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 10, 2026",
+        "label": "Season 9 Launch"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "644K+",
+        "label": "All-Time Peak"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "98K+",
+        "label": "24h Peak Players"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "398K+",
+        "label": "Steam Reviews"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Rival in Season 9?",
+    "description": "Join the Marvel Rivals community on Discord for Season 9 guides, tier lists, redeem codes, and discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Marvel Rivals Season 9 Wiki",
+    "description": "Your complete resource hub for Marvel Rivals Season 9 — heroes, tier lists, the Mystery of Thebes map, redeem codes, and strategy guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Marvel Rivals Season 9 Wiki. Not affiliated with NetEase Games or Marvel.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
