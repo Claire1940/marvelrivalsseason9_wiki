@@ -1,10 +1,739 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Marvel Rivals Temporada 9 - Héroes, Tier Lists y Códigos",
+      "description": "La Wiki de Marvel Rivals Temporada 9 cubre a todos los héroes, tier lists, actualizaciones de la Temporada 9 'Mystery of Thebes', el nuevo mapa y los últimos códigos de canje para el shooter de superhéroes por equipos 6v6 gratuito.",
+      "keywords": "Marvel Rivals, Marvel Rivals Temporada 9, Marvel Rivals wiki, héroes, tier list, códigos de canje, Mystery of Thebes, shooter 6v6",
+      "ogTitle": "Wiki de Marvel Rivals Temporada 9 - Héroes, Tier Lists y Códigos",
+      "ogDescription": "La Wiki de Marvel Rivals Temporada 9 cubre a todos los héroes, tier lists, actualizaciones de la Temporada 9 'Mystery of Thebes', el nuevo mapa y los últimos códigos de canje para el shooter de superhéroes por equipos 6v6 gratuito.",
+      "twitterTitle": "Wiki de Marvel Rivals Temporada 9 - Héroes, Tier Lists y Códigos",
+      "twitterDescription": "Wiki de Marvel Rivals Temporada 9 — héroes, tier lists, actualizaciones de la Temporada 9 'Mystery of Thebes', el nuevo mapa y los últimos códigos de canje."
+    }
+  },
   "nav": {
     "release": "Lanzamiento",
     "characters": "Personajes",
     "leaks": "Filtraciones",
-    "patch": "Patch",
-    "teamups": "Team Ups",
-    "battlepass": "Pase de Batalla"
+    "patch": "Parche",
+    "teamups": "Team-ups",
+    "battlepass": "Pase de batalla"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Shooter de superhéroes por equipos 6v6",
+    "title": "Marvel Rivals Temporada 9",
+    "description": "Domina a cada héroe, asciende en los rangos de la Temporada 9 'Mystery of Thebes' y consigue los últimos códigos de canje para Marvel Rivals — el shooter de superhéroes por equipos 6v6 gratuito en Steam.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "10 de julio de 2026",
+        "label": "Lanzamiento de la Temporada 9"
+      },
+      "stat2": {
+        "value": "644K+",
+        "label": "Pico histórico"
+      },
+      "stat3": {
+        "value": "98K+",
+        "label": "Pico de jugadores en 24h"
+      },
+      "stat4": {
+        "value": "398K+",
+        "label": "Reseñas en Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Marvel Rivals Temporada 9",
+    "description": "Domina el combate por equipos de superhéroes 6v6 en Marvel Rivals Temporada 9: nuevos héroes, habilidades Team-Up, Escudos Regenerativos y la temporada Mystery of Thebes en Steam."
+  },
+  "tools": {
+    "title": "Marvel Rivals Temporada 9",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para Marvel Rivals Temporada 9: códigos, tier list, notas del parche, héroes y el pase de batalla",
+    "cards": [
+      {
+        "icon": "CalendarClock",
+        "title": "Fecha de lanzamiento de Marvel Rivals Temporada 9",
+        "description": "Fecha de lanzamiento, hoja de ruta y lo primero que debes revisar"
+      },
+      {
+        "icon": "Regalo",
+        "title": "Códigos de Marvel Rivals Temporada 9",
+        "description": "Códigos de paquete, Twitch Drops y recompensas gratuitas"
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Héroes de Marvel Rivals Temporada 9",
+        "description": "Jubilee, The Hood, roles y habilidades"
+      },
+      {
+        "icon": "Trofeo",
+        "title": "Tier List de Marvel Rivals Temporada 9",
+        "description": "Mejores héroes, cambios en el meta y composiciones de equipo"
+      },
+      {
+        "icon": "Gema",
+        "title": "Pase de batalla de Marvel Rivals Temporada 9",
+        "description": "Pase Deaths on the Nile, skins y recompensas"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Notas del parche de Marvel Rivals Temporada 9",
+        "description": "Buffs, nerfs y Escudos Regenerativos"
+      },
+      {
+        "icon": "Espadas",
+        "title": "Team-Ups de Marvel Rivals Temporada 9",
+        "description": "Mejores parejas, sinergias y composiciones"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Marvel Rivals Temporada 9",
+        "description": "Cómo empezar, roles y conceptos básicos de 6v6"
+      }
+    ]
+  },
+  "modules": {
+    "season9ReleaseRoadmap": {
+      "title": "Fecha de lanzamiento y hoja de ruta de Marvel Rivals Temporada 9",
+      "displayType": "tabla",
+      "intro": "Marvel Rivals Temporada 9 se titula Mystery of Thebes. La actualización se centra en la trama de Tebas, el lanzamiento de un nuevo héroe, Escudos Regenerativos, cambios en la energía de la definitiva y un gran ajuste de equilibrio para los Team-Ups.",
+      "items": [
+        {
+          "label": "Nombre de la temporada",
+          "value": "Temporada 9: Mystery of Thebes",
+          "details": "La nueva temporada se centra en Tebas y la historia de Apocalipsis mostrada en la revelación de la Temporada 9."
+        },
+        {
+          "label": "Fecha de lanzamiento",
+          "value": "10 de julio de 2026 UTC",
+          "details": "Marvel Rivals Temporada 9 comienza a nivel mundial el 10 de julio UTC."
+        },
+        {
+          "label": "Enfoque principal de la actualización",
+          "value": "Nuevo héroe, nuevo mapa, cambios de equilibrio globales",
+          "details": "El Dev Vision oficial destaca nuevos cambios en el juego, el último héroe y un mapa completamente nuevo."
+        },
+        {
+          "label": "Héroe de lanzamiento",
+          "value": "Jubilee",
+          "details": "Jubilee llega con la Temporada 9 como una Estratega centrada en energía pirotécnica, apoyo de curación, movimiento de planeo y presión de retroceso para enemigos."
+        },
+        {
+          "label": "Nuevo mapa",
+          "value": "Mapa Convoy de Tebas",
+          "details": "Tebas es la adición de mapa de Marvel Rivals Temporada 9 vinculada al tema de la temporada y a la jugabilidad de convoy."
+        },
+        {
+          "label": "Primeras cosas que revisar",
+          "value": "Publicación de equilibrio, cambios de Team-Up, página de héroe, Twitch Drops",
+          "details": "Los jugadores deben revisar los cambios en la energía de la Habilidad Definitiva, Escudos regenerativos, ajustes de héroes, eventos activos y páginas de recompensas antes de entrar a las partidas clasificatorias."
+        }
+      ]
+    },
+    "season9CodesRewards": {
+      "title": "Códigos y recompensas gratuitas de Marvel Rivals Temporada 9",
+      "displayType": "tarjetas-de-códigos",
+      "intro": "Las recompensas de Marvel Rivals se gestionan a través de páginas oficiales de códigos de paquete, el canje de códigos de paquete en el juego, Twitch Drops y anuncios de eventos limitados. Usa solo las páginas oficiales de recompensas y el sistema de correo del juego para reclamarlas.",
+      "items": [
+        {
+          "name": "Recompensa Infinity de Marvel Rivals",
+          "type": "Página oficial de canje",
+          "code": "CANJEAR A TRAVÉS DE MARVEL.COM",
+          "reward": "Objeto de juego de la campaña Marvel Rivals Infinity",
+          "howToClaim": "Abre la página oficial de canje de Marvel, sigue el proceso de cuenta y canje, y luego reclama la recompensa en el juego."
+        },
+        {
+          "name": "Menú de Código de Paquete",
+          "type": "Canje de códigos en el juego",
+          "code": "INGRESA SOLO CÓDIGOS DE PAQUETE OFICIALES",
+          "reward": "Las recompensas de los paquetes varían según la campaña oficial",
+          "howToClaim": "Presiona ESC en el lobby, abre el menú del sistema, elige Código de Paquete, ingresa el código oficial y haz clic en Usar."
+        },
+        {
+          "name": "Twitch Drops",
+          "type": "Recompensa por ver",
+          "code": "NO SE REQUIERE CÓDIGO",
+          "reward": "Recompensas de Drops de las campañas de Twitch de Marvel Rivals",
+          "howToClaim": "Inicia sesión, vincula tu cuenta de Twitch, mira transmisiones de la categoría Marvel Rivals con Drops activados, reclámalos desde el inventario de Twitch y luego revisa el correo del juego."
+        },
+        {
+          "name": "Recompensas de evento",
+          "type": "Noticias y eventos oficiales",
+          "code": "REVISA LOS EVENTOS OFICIALES",
+          "reward": "Cosméticos de tiempo limitado, objetos de campaña y bonificaciones de evento",
+          "howToClaim": "Sigue las páginas oficiales de Noticias, Eventos y Twitch Drops durante la Temporada 9 y reclama las recompensas antes de las fechas límite de las campañas."
+        }
+      ]
+    },
+    "season9NewHeroes": {
+      "title": "Nuevos héroes de Marvel Rivals Temporada 9",
+      "displayType": "lista-de-tarjetas",
+      "intro": "La revelación de la Temporada 9 se centra en Mystery of Thebes, Apocalypse, Jubilee y The Hood. Jubilee es el foco inmediato de la jugabilidad porque llega con la actualización del 10 de julio UTC como una heroína de apoyo de tipo Estratega.",
+      "items": [
+        {
+          "hero": "Jubilee",
+          "releasePosition": "Héroe de lanzamiento de la Temporada 9",
+          "role": "Estratega",
+          "playstyle": "Apoyo pirotécnico con curación, presión de daño, movimiento aéreo corto, burbujas de curación y retroceso de control de masas.",
+          "keyAbilities": [
+            "Proyectiles de energía estilo fuegos artificiales",
+            "Soporte de curación para compañeros de equipo",
+            "Breve movimiento de planeo tras saltar",
+            "Utilidad de burbuja de curación",
+            "Empuje de habilidad definitiva para desplazamiento y presión ambiental"
+          ],
+          "loreHook": "Jubilee está vinculada a Apocalypse en la historia de la Temporada 9 como el Jinete del Hambre mientras intenta salvar a su hijo Shogo."
+        },
+        {
+          "hero": "The Hood",
+          "releasePosition": "Héroe de seguimiento de la Temporada 9",
+          "role": "Adición al plantel de la Temporada 9",
+          "playstyle": "Héroe centrado en villanos mostrado en la revelación de la Temporada 9 junto a Jubilee y Apocalypse.",
+          "keyAbilities": [
+            "Aparición oficial en la revelación de la Temporada 9",
+            "Conexión con la historia de Tebas",
+            "Expansión del plantel después de Jubilee"
+          ],
+          "loreHook": "The Hood se posiciona como parte del despliegue de personajes de la Temporada 9 conectada con El Misterio de Tebas."
+        },
+        {
+          "hero": "Apocalypse",
+          "releasePosition": "Enfoque de la historia de la Temporada 9",
+          "role": "Antagonista de la temporada",
+          "playstyle": "Figura central del tráiler e impulsor de la historia en lugar de un héroe jugable confirmado para el lanzamiento.",
+          "keyAbilities": [
+            "Pieza central de la historia de Tebas",
+            "Conexión de Jubilee como Jinete",
+            "Enfoque cinematográfico de la Temporada 9"
+          ],
+          "loreHook": "Apocalypse impulsa el conflicto de Tebas y aparece como la principal fuerza narrativa en el tráiler de la Temporada 9."
+        }
+      ]
+    },
+    "season9TierListMeta": {
+      "title": "Tier List y Meta de la Temporada 9 de Marvel Rivals",
+      "displayType": "cuadrícula-tier",
+      "intro": "La actualización de equilibrio de la Temporada 9 de Marvel Rivals reduce la generación de energía definitiva para Vanguardias, Duelistas y Estrategas, introduce Escudos Regenerativos y ajusta a los héroes en torno al nuevo sistema Team-Up. Estos cambios hacen que el mantenimiento de escudos, la sinergia Team-Up y las ventanas de curación fiables sean más importantes para el juego competitivo.",
+      "items": [
+        {
+          "tier": "Principales impulsores del Meta",
+          "roleFocus": "Vanguardia y Estratega",
+          "heroes": [
+            "Doctor Strange",
+            "Devil Dinosaur",
+            "Groot",
+            "Cloak & Dagger",
+            "Luna Snow",
+            "Ultron"
+          ],
+          "whyItMatters": "Doctor Strange obtiene más salud y un Shield of the Seraphim más fuerte, Devil Dinosaur y Groot reciben una mayor durabilidad en el frente, Cloak & Dagger obtienen mejoras generales de curación, Luna Snow aumenta el poder de potenciación de curación y Ultron mejora la curación de área de los drones.",
+          "playerTakeaway": "Construye en torno a una fuerte protección de vanguardia y ventanas de curación de gran valor."
+        },
+        {
+          "tier": "Vigilancia de Team-Up fuertes",
+          "roleFocus": "Sinergia de Team-Up",
+          "heroes": [
+            "Psylocke",
+            "Mantis",
+            "Adam Warlock",
+            "The Punisher",
+            "Elsa Bloodstone",
+            "Doctor Strange"
+          ],
+          "whyItMatters": "Psylocke obtiene valor adicional con Emma Frost o Cloak & Dagger, Mantis recibe efectos más fuertes con Star-Lord o Adam Warlock, Adam Warlock se beneficia de la sinergia con Ultron, The Punisher recupera daño al emparejarse con Daredevil, Elsa Bloodstone obtiene daño de perdigones con Devil Dinosaur y Doctor Strange obtiene valor de escudo adicional con Invisible Woman.",
+          "playerTakeaway": "Elige héroes con sus compañeros de Team-Up previstos en lugar de juzgarlos solo por sus números en solitario."
+        },
+        {
+          "tier": "Héroes de primera línea con escudos regenerativos",
+          "roleFocus": "Sustento de Vanguardia",
+          "heroes": [
+            "Angela",
+            "Capitán América",
+            "Hulk",
+            "Rogue",
+            "Thor",
+            "Venom"
+          ],
+          "whyItMatters": "La Temporada 9 añade escudos regenerativos a varios héroes de primera línea. Estos escudos comienzan a recuperarse tras evitar el daño durante 5 segundos y recuperan por completo los puntos de escudo cargables durante los siguientes 5 segundos.",
+          "playerTakeaway": "Usa las coberturas, el momento de retirada y las rutas de reentrada para restablecer el valor del escudo antes del siguiente combate."
+        },
+        {
+          "tier": "Ajustes del rol de daño",
+          "roleFocus": "Cambios en los Duelistas",
+          "heroes": [
+            "Hela",
+            "Hawkeye",
+            "Storm",
+            "Cyclops",
+            "Iron Man",
+            "The Punisher"
+          ],
+          "whyItMatters": "Hela obtiene un mayor daño de Espina de espada nocturna y un movimiento de cuervo más libre, Hawkeye obtiene flechas parcialmente cargadas más rápidas y fuertes, y Storm obtiene daño de Espada de viento. Cyclops, Iron Man y The Punisher reciben reducciones de daño base vinculadas al equilibrio general de los Team-Up.",
+          "playerTakeaway": "Espera un mayor valor de los héroes de desgaste preciso, pero comprueba los emparejamientos de Team-Up antes de confirmar tus elecciones de daño."
+        },
+        {
+          "tier": "Notas del meta de apoyo",
+          "roleFocus": "Sanación de Estratega",
+          "heroes": [
+            "Cloak & Dagger",
+            "Gambit",
+            "Invisible Woman",
+            "Luna Snow",
+            "Rocket Raccoon",
+            "White Fox"
+          ],
+          "whyItMatters": "La conversión de sanación a energía de habilidad definitiva de los Estrategas disminuye del 75 % al 60 %, mientras que varios Estrategas reciben ajustes directos en su sanación, utilidad o habilidad definitiva.",
+          "playerTakeaway": "La cantidad de sanación sigue siendo importante, pero la carga de la habilidad definitiva es más lenta, por lo que los equipos deben luchar en torno a los tiempos de recarga y el posicionamiento con más cuidado."
+        }
+      ]
+    },
+    "season9BattlePass": {
+      "title": "Pase de batalla y aspectos de la Temporada 9 de Marvel Rivals",
+      "displayType": "card-list",
+      "intro": "El pase de batalla de Deaths on the Nile conecta los cosméticos de la Temporada 9 de Marvel Rivals con la historia de The Mystery of Thebes. Se centra en trajes temáticos, progresión cosmética y una mejora prémium que desbloquea permanentemente el acceso al pase de batalla para reclamar a largo plazo.",
+      "items": [
+        {
+          "title": "Tema del pase de batalla",
+          "badge": "Deaths on the Nile",
+          "description": "El pase de batalla de la Temporada 9 de Marvel Rivals sigue las secuelas de la caída de Apocalypse, donde comienzan a surgir muertes inexplicables a lo largo del misterio con temática del Nilo.",
+          "highlights": [
+            "Parte de la Temporada 9: El Misterio de Tebas",
+            "Se lanza con la Temporada 9 el 10 de julio UTC",
+            "Usa el Faith Harvesting Engine como marco de recompensas de la temporada"
+          ]
+        },
+        {
+          "title": "Atractivo principal de recompensa",
+          "badge": "10 trajes",
+          "description": "La recompensa principal del Pase de Batalla son 10 trajes nuevos, lo que lo convierte en la ruta cosmética central para los coleccionistas de la Temporada 9.",
+          "highlights": [
+            "10 trajes nuevos incluidos",
+            "Centrado en el misterio de la Temporada 9 y el estilo de la antigua Tebas",
+            "Diseñado para jugadores que quieren aspectos temáticos para los héroes"
+          ]
+        },
+        {
+          "title": "Pase de Batalla Premium",
+          "badge": "Acceso permanente",
+          "description": "Mejorar al Pase de Batalla premium lo desbloquea de forma permanente, de modo que los jugadores pueden seguir progresando a través de las recompensas premium a lo largo del tiempo.",
+          "highlights": [
+            "La propiedad premium mantiene el pase accesible",
+            "Ideal para jugadores que no pueden completar todas las recompensas de inmediato",
+            "Los héroes jugables siguen siendo gratuitos, por lo que el pase tiene un valor principalmente cosmético"
+          ]
+        },
+        {
+          "title": "Guía de compra o descarte",
+          "badge": "Lo mejor para coleccionistas",
+          "description": "El pase es más útil para los jugadores que quieren trajes de la Temporada 9 de Marvel Rivals, cosméticos de perfil y progresión temática.",
+          "highlights": [
+            "Cómpralo por los trajes y cosméticos de cuenta",
+            "Sáltatelo si solo te importan las partidas, los héroes y los cambios de equilibrio",
+            "Echa un vistazo a la vista previa del juego antes de gastar la divisa"
+          ]
+        }
+      ]
+    },
+    "season9PatchNotes": {
+      "title": "Notas del parche de la Temporada 9 de Marvel Rivals",
+      "displayType": "acordeón",
+      "intro": "Marvel Rivals Temporada 9 es una gran actualización de juego, no solo un parche de héroes. Los mayores cambios son una generación de la habilidad definitiva más lenta, la llegada de los Escudos regenerativos, la eliminación general de las bonificaciones de anclaje de Team-Up y mejoras o debilitaciones específicas para los héroes de Vanguardia, Duelista y Estratega.",
+      "items": [
+        {
+          "title": "Cambios globales en la energía de la habilidad definitiva",
+          "summary": "La generación de la habilidad definitiva es más lenta en las fuentes de daño y curación.",
+          "details": [
+            "Vanguardias y Duelistas: la conversión de daño a energía se reduce del 70% al 55%.",
+            "Estrategas: la conversión de curación a energía se reduce del 75% al 60%.",
+            "Estrategas: la conversión de daño a energía se reduce del 75% al 55%."
+          ]
+        },
+        {
+          "title": "Escudos regenerativos",
+          "summary": "La Temporada 9 introduce un nuevo tipo de salud que recompensa el evitar daño.",
+          "details": [
+            "Los Escudos regenerativos siguen la misma lógica que la salud base para la curación y el daño basados en porcentajes.",
+            "Tras evitar el daño durante 5 segundos, los escudos comienzan a regenerarse automáticamente.",
+            "Los puntos de escudo cargables se recuperan por completo durante los siguientes 5 segundos."
+          ]
+        },
+        {
+          "title": "Novedades de Vanguardia",
+          "summary": "Varios personajes de primera línea intercambian salud bruta por Escudos regenerativos o reciben ajustes de supervivencia.",
+          "details": [
+            "Capitán América cambia de 600 de salud base a 300 de salud base más 300 de Escudo regenerativo.",
+            "Hulk cambia de 650 de salud base a 400 de salud base más 300 de Escudo regenerativo, mientras que el daño de Heavy Blow aumenta de 40 a 45.",
+            "Doctor Strange obtiene 650 de salud base y el valor de escudo de Shield of the Seraphim aumenta de 700 a 850.",
+            "La salud base de Devil Dinosaur aumenta de 750 a 850."
+          ]
+        },
+        {
+          "title": "Duelistas destacados",
+          "summary": "La Temporada 9 ajusta el daño de hostigamiento, la movilidad y el potencial de ráfaga impulsado por los Team-Up.",
+          "details": [
+            "Cyclops ve reducido el daño de Optic Blast de 25 a 21, y los tiempos de reutilización de Propulsion Burst y Optic Ascent aumentan de 12 s a 15 s.",
+            "El daño base de Nightsword Thorn de Hela aumenta de 70 a 80 y Astral Flock obtiene vuelo direccional libre.",
+            "Iron Man recibe reducciones en Repulsor Blast y Unibeam para compensar su fuerte sinergia de Team-Up.",
+            "Psylocke obtiene efectos de compañero más fuertes con Emma Frost y Cloak & Dagger."
+          ]
+        },
+        {
+          "title": "Estrategas destacados",
+          "summary": "Los héroes de apoyo reciben ajustes de curación, munición, Habilidad Definitiva y basados en compañeros.",
+          "details": [
+            "Cloak & Dagger reciben una curación directa, curación de campo, curación de Veil of Lightforce y curación de Dagger Storm más fuertes.",
+            "Luna Snow pierde el aumento de daño de Number One Idol, pero aumenta su bonificación de curación del 10 % al 20 %.",
+            "La curación de Repair Mode de Rocket Raccoon aumenta de 50 a 55, mientras que C.Y.A. cuesta más energía de Habilidad Definitiva y gana caída de daño por distancia.",
+            "La curación de área del dron Imperative: Firewall de Ultron aumenta de 30/s a 35/s."
+          ]
+        },
+        {
+          "title": "Limpieza de bonificaciones de anclaje de Team-Up",
+          "summary": "Se eliminan muchas bonificaciones de anclaje de Team-Up planas para que la Temporada 9 pueda equilibrarse en torno a efectos de compañeros específicos.",
+          "details": [
+            "Varios héroes pierden las bonificaciones planas de salud, aumento de daño o aumento de curación de los efectos de anclaje de Team-Up.",
+            "El parche ahora enfatiza las bonificaciones directas de compañeros, como Doctor Strange con Invisible Woman o Adam Warlock con Ultron.",
+            "La formación de equipos importa más porque los pares de héroes específicos pueden cambiar el daño, la curación, la munición, los escudos o la supervivencia."
+          ]
+        }
+      ]
+    },
+    "season9TeamUpGuide": {
+      "title": "Guía de habilidades de Team-Up de la Temporada 9 de Marvel Rivals",
+      "displayType": "card-list",
+      "intro": "La actualización de Team-Up de la Temporada 9 de Marvel Rivals elimina muchas de las antiguas bonificaciones de anclaje planas y traslada el valor hacia los efectos directos de pares de héroes. Los jugadores deben formar equipos comprobando qué bonificaciones de compañero mejoran su rol: estabilidad de la línea frontal, daño de ráfaga, producción de curación o tiempo de actividad de la utilidad.",
+      "items": [
+        {
+          "title": "Doctor Strange + Invisible Woman",
+          "badge": "Control de escudos",
+          "description": "Cuando se selecciona a Invisible Woman como compañera de Team-Up de Doctor Strange, Shield of the Seraphim obtiene 150 puntos de escudo adicionales para un total de 1000.",
+          "bestFor": [
+            "Protección de la línea frontal",
+            "Defensa de puntos de estrangulamiento",
+            "Equipos que buscan un mayor tiempo de actividad de las barreras"
+          ]
+        },
+        {
+          "title": "Elsa Bloodstone + Devil Dinosaur",
+          "badge": "Aumento de daño",
+          "description": "Cuando se selecciona a Devil Dinosaur como compañero de Team-Up de Elsa Bloodstone, el daño de los perdigones de Double-Barrel Blaster aumenta de 4.5 a 5.",
+          "bestFor": [
+            "Presión a corta distancia",
+            "Avances respaldados por tanques",
+            "Ventanas de daño de ráfaga"
+          ]
+        },
+        {
+          "title": "The Punisher + Daredevil",
+          "badge": "Daño de arma",
+          "description": "El daño base del arma de Punisher se reduce, pero emparejarlo con Daredevil restaura el daño de Adjudication y Deliverance mediante el efecto Team-Up.",
+          "bestFor": [
+            "Equipos enfocados en hitscan",
+            "Presión a media distancia",
+            "Seguimiento de dive de Daredevil"
+          ]
+        },
+        {
+          "title": "Psylocke + Emma Frost",
+          "badge": "Salud adicional",
+          "description": "Con Emma Frost como compañera, Psylocke obtiene más salud adicional de Wing Shurikens, aumentando de 10 a 15 por impacto.",
+          "bestFor": [
+            "Supervivencia en flanqueo",
+            "Entradas de dive",
+            "Jugadores que necesitan una presión más segura en la retaguardia"
+          ]
+        },
+        {
+          "title": "Psylocke + Cloak & Dagger",
+          "badge": "Daño de ballesta",
+          "description": "Con Cloak & Dagger como compañeros, el daño base por impacto de Psionic Crossbow de Psylocke aumenta de 13 a 14.",
+          "bestFor": [
+            "Estilos de juego de asesino",
+            "Dives con apoyo de soporte",
+            "Rematar objetivos con poca salud"
+          ]
+        },
+        {
+          "title": "Adam Warlock + Ultron",
+          "badge": "Utilidad de munición",
+          "description": "Cuando se selecciona a Ultron como compañero de Team-Up de Adam Warlock, la capacidad de munición de Quantum Magic aumenta de 15 a 25.",
+          "bestFor": [
+            "Ritmo de curación sostenida",
+            "Combates largos",
+            "Jugadores de soporte que necesitan menos intervalos de recarga"
+          ]
+        },
+        {
+          "title": "Mantis + Star-Lord",
+          "badge": "Potencial de curación",
+          "description": "Cuando se selecciona a Star-Lord como compañero de Team-Up de Mantis, Healing Flower mejora de 10 más el 2,5 % de la salud máxima del objetivo por segundo a 15 más el 3 % por segundo.",
+          "bestFor": [
+            "Soporte para duelistas móviles",
+            "Combates de equipo sostenidos",
+            "Curar aliados con mucha salud"
+          ]
+        },
+        {
+          "title": "Mantis + Adam Warlock",
+          "badge": "Autosustento",
+          "description": "Cuando se selecciona a Adam Warlock como compañero, Mantis aumenta su autocuración de 12,5/s a 17,5/s durante Natural Anger.",
+          "bestFor": [
+            "Posicionamiento de soporte más seguro",
+            "Sobrevivir a la presión",
+            "Mayor tiempo de actividad del soporte"
+          ]
+        }
+      ]
+    },
+    "season9BeginnerGuide": {
+      "title": "Cómo empezar la Temporada 9 de Marvel Rivals",
+      "displayType": "paso a paso",
+      "intro": "Marvel Rivals es un shooter PvP por equipos de superhéroes gratuito con combates rápidos de 6v6, entornos destructibles y habilidades de Team-Up. La Temporada 9 añade nuevas reglas de equilibrio, Regenerative Shields y nuevas prioridades de Team-Up, por lo que los principiantes deberían aprender lo básico antes de buscar las elecciones meta avanzadas.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Descargar el juego",
+          "description": "Instala Marvel Rivals en tu plataforma preferida. Los enlaces de descarga oficiales cubren Windows, Steam, Epic, Xbox Series X|S, PlayStation 5, PlayStation 5 Pro y PlayStation 4.",
+          "tips": [
+            "Steam lista el juego como Free To Play.",
+            "Los jugadores de PC deben comprobar los requisitos de almacenamiento y hardware antes de instalar.",
+            "Usa el sitio web oficial o las páginas oficiales de la tienda para evitar descargas incorrectas."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Aprende el flujo del 6v6",
+          "description": "Marvel Rivals se basa en combates de equipo rápidos donde dos equipos luchan con héroes y villanos de Marvel en mapas cambiantes y destructibles.",
+          "tips": [
+            "Mantente cerca de tus compañeros en lugar de entablar combates aislados.",
+            "Usa la cobertura del mapa y el terreno destructible para sobrevivir a los empujes.",
+            "Céntrate primero en los objetivos, luego en las eliminaciones."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Elige un rol principal",
+          "description": "Empieza con un rol, luego aprende uno de reserva. Los Vanguardias mantienen el espacio, los Duelistas presionan y aseguran eliminaciones, y los Estrategas mantienen vivos a los aliados mediante curación, mejoras y utilidad.",
+          "tips": [
+            "Ruta para principiantes: un Vanguardia, un Duelista, un Estratega.",
+            "No selecciones solo héroes de daño si al equipo le falta vanguardia o curación.",
+            "Observa cómo tu rol cambia tu posicionamiento."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Usa las Habilidades de Team-Up",
+          "description": "Las habilidades de Team-Up son una mecánica central de Marvel Rivals. La Temporada 9 hace que la elección de compañeros sea más importante, ya que muchas bonificaciones ahora dependen de parejas de héroes específicas.",
+          "tips": [
+            "Comprueba los héroes de tu equipo antes de confirmar tu elección.",
+            "Prueba parejas sencillas como Doctor Strange con Invisible Woman o Adam Warlock con Ultron.",
+            "Cambia de héroe si la composición de tu equipo no tiene una sinergia útil."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Lee los aspectos básicos del parche de la Temporada 9",
+          "description": "Antes de jugar partidas clasificatorias, conoce los cambios de la Temporada 9 de Marvel Rivals en la energía de la Definitiva, los Escudos regenerativos y el equilibrio de roles.",
+          "tips": [
+            "Las definitivas se cargan más lento que antes con el daño y la curación.",
+            "Los Escudos regenerativos se recuperan tras evitar el daño.",
+            "Los héroes con cambios en los escudos pueden necesitar un ritmo de retirada diferente."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre la Temporada 9 de Marvel Rivals",
+    "questions": [
+      {
+        "question": "¿Qué es la Temporada 9 de Marvel Rivals: El Misterio de Tebas?",
+        "answer": "La Temporada 9 de Marvel Rivals se titula El Misterio de Tebas. Añade un nuevo héroe, un nuevo mapa de convoy de Tebas, Escudos regenerativos, cambios en el sistema de Team-Up y una gran actualización de equilibrio el 10 de julio UTC."
+      },
+      {
+        "question": "¿Cuándo empieza la Temporada 9 de Marvel Rivals?",
+        "answer": "La Temporada 9 de Marvel Rivals comienza a nivel global el 10 de julio de 2026 UTC. Los jugadores deberían consultar la publicación de equilibrio, los cambios de Team-Up y las páginas de recompensas antes de que la temporada esté disponible."
+      },
+      {
+        "question": "¿Quién es el nuevo héroe de la Temporada 9 de Marvel Rivals?",
+        "answer": "Jubilee es la heroína de lanzamiento de la Temporada 9 de Marvel Rivals, que llega como Estratega con curación pirotécnica, movimiento de levitación y utilidad de empuje. Se ha insinuado que The Hood será la próxima incorporación al plantel de la Temporada 9."
+      },
+      {
+        "question": "¿Qué incluye el Pase de Batalla de la Temporada 9 de Marvel Rivals?",
+        "answer": "El Pase de Batalla de la Temporada 9 de Marvel Rivals es Muertes en el Nilo. Se centra en 10 nuevos aspectos y una progresión temática, con una mejora premium que desbloquea permanentemente el pase para reclamar recompensas a largo plazo."
+      },
+      {
+        "question": "¿Dónde puedo descargar y jugar la Temporada 9 de Marvel Rivals?",
+        "answer": "Puedes jugar la Temporada 9 de Marvel Rivals en Steam, Epic, Xbox Series X|S, PlayStation 5, PlayStation 5 Pro y PlayStation 4. El juego es gratuito y el contenido de la Temporada 9 se desbloquea el 10 de julio UTC."
+      },
+      {
+        "question": "¿Es gratis jugar a la Temporada 9 de Marvel Rivals?",
+        "answer": "Sí. La Temporada 9 de Marvel Rivals es gratuita. Todos los héroes jugables son gratis y el Pase de Batalla solo añade recompensas cosméticas, por lo que puedes disfrutar de toda la temporada sin gastar dinero."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para competir en la Temporada 9?",
+    "description": "¡Únete a la comunidad de Marvel Rivals en Discord para obtener guías de la Temporada 9, tier lists, códigos de canje y debates!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de la Temporada 9 de Marvel Rivals",
+    "description": "Tu centro de recursos completo para la Temporada 9 de Marvel Rivals: héroes, tier lists, el mapa de El Misterio de Tebas, códigos de canje y guías de estrategia.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Marvel Rivals Season 9 Wiki. No afiliado con NetEase Games ni Marvel.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento y hoja de ruta de Marvel Rivals Season 9",
+      "description": "Fecha de lanzamiento oficial de Marvel Rivals Season 9, horarios de lanzamiento global, hoja de ruta de la temporada, nuevos héroes y el tema The Mystery of Thebes.",
+      "metaTitle": "Fecha de lanzamiento y hoja de ruta de Marvel Rivals Season 9 - Horarios de lanzamiento",
+      "metaDescription": "Obtén la fecha de lanzamiento oficial de Marvel Rivals Season 9, horarios de lanzamiento global, hoja de ruta, los nuevos héroes Jubilee y The Hood, y el tema de temporada The Mystery of Thebes.",
+      "categoryLabel": "LANZAMIENTO Y HOJA DE RUTA",
+      "whatIs": "¿Qué es Season 9?",
+      "whatIsDescription": "Marvel Rivals Season 9, titulada The Mystery of Thebes, es la novena temporada competitiva del shooter de superhéroes 6v6 gratuito. Se lanza globalmente el 10 de julio de 2026 UTC, introduciendo un mapa de convoy de Thebes con temática egipcia, el Team-Up Ability Overhaul, Regenerative Shields y dos nuevos héroes.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce la hora exacta de lanzamiento",
+        "step1Description": "Convierte el lanzamiento del 10 de julio de 2026 UTC a tu zona horaria local para que puedas iniciar sesión en cuanto los servidores estén activos.",
+        "step2Title": "Sigue la hoja de ruta",
+        "step2Description": "Mira cuándo llegan Jubilee, The Hood y las actualizaciones de mitad de temporada en el calendario de Season 9.",
+        "step3Title": "Prepárate para el lanzamiento",
+        "step3Description": "Pre-carga el cliente, aprende las nuevas mecánicas y entra en cola en el segundo en que comience la temporada."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las guías de lanzamiento"
+    },
+    "characters": {
+      "title": "Personajes y héroes de Marvel Rivals Season 9",
+      "description": "Todos los héroes de Marvel Rivals Season 9, incluyendo a Jubilee, The Hood, sus habilidades, roles y cómo jugarlos.",
+      "metaTitle": "Personajes de Marvel Rivals Season 9 - Jubilee, The Hood y héroes",
+      "metaDescription": "Guías completas de personajes de Marvel Rivals Season 9 que cubren a los nuevos héroes Jubilee y The Hood, habilidades, roles y estrategias de juego para cada héroe.",
+      "categoryLabel": "PERSONAJES Y HÉROES",
+      "whatIs": "¿Qué son las guías de personajes?",
+      "whatIsDescription": "Las guías de personajes detallan cada héroe de Marvel Rivals Season 9, incluyendo su rol como Vanguard, Duelist o Strategist, sus habilidades, enfriamientos, sinergias y consejos de estilo de juego. Season 9 añade a Jubilee en el lanzamiento y a The Hood en la actualización de mitad de temporada.",
+      "why": "¿Por qué leer guías de personajes?",
+      "whySteps": {
+        "step1Title": "Domina a los nuevos héroes",
+        "step1Description": "Aprende el kit pirotécnico de Strategist de Jubilee y las mecánicas de The Hood antes de que definan el meta.",
+        "step2Title": "Comprende los roles",
+        "step2Description": "Conoce si un héroe es Vanguard, Duelist o Strategist y cómo encajan en la composición de tu equipo.",
+        "step3Title": "Mejora tu juego",
+        "step3Description": "Aplica combos de habilidades, posicionamiento y consejos de sinergia para subir de rango más rápido."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los personajes"
+    },
+    "leaks": {
+      "title": "Filtraciones y rumores de la Temporada 9 de Marvel Rivals",
+      "description": "Filtraciones de la Temporada 9 de Marvel Rivals, predicciones de héroes, personajes anticipados y reportes de insiders que incluyen a Duende Verde y Miller Ross.",
+      "metaTitle": "Filtraciones de la Temporada 9 de Marvel Rivals - Predicciones de héroes y rumores",
+      "metaDescription": "Sigue las filtraciones de la Temporada 9 de Marvel Rivals, predicciones de personajes, héroes anticipados y reportes de insiders que incluyen a Duende Verde y Miller Ross.",
+      "categoryLabel": "FILTRACIONES Y RUMORES",
+      "whatIs": "¿Qué son las filtraciones?",
+      "whatIsDescription": "Las filtraciones revelan el próximo contenido de la Temporada 9 de Marvel Rivals, incluyendo héroes no revelados, aspectos y características antes de los anuncios oficiales. Obtenidas de mineros de datos e insiders de confianza, ofrecen a los jugadores un vistazo anticipado de lo que está por venir.",
+      "why": "¿Por qué seguir las filtraciones?",
+      "whySteps": {
+        "step1Title": "Descubre los próximos héroes",
+        "step1Description": "Obtén un vistazo anticipado de personajes como Duende Verde antes de su revelación oficial.",
+        "step2Title": "Planifica tus recursos",
+        "step2Description": "Ahorra divisa y desbloquea materiales para los héroes con los que realmente quieres jugar.",
+        "step3Title": "Adelántate al meta",
+        "step3Description": "Prepara estrategias para el próximo contenido antes de que llegue a los servidores en vivo."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las filtraciones y rumores"
+    },
+    "patch": {
+      "title": "Notas del parche y balance de la Temporada 9 de Marvel Rivals",
+      "description": "Notas del parche, cambios de balance, buffs, nerfs y el rework de Viuda Negra de la Temporada 9 de Marvel Rivals desglosados por héroe y sistema.",
+      "metaTitle": "Notas del parche de la Temporada 9 de Marvel Rivals - Buffs, nerfs y balance",
+      "metaDescription": "Notas del parche completas de la Temporada 9 de Marvel Rivals que cubren cambios de balance, buffs, nerfs, el rework de Viuda Negra y ajustes de energía de habilidad definitiva.",
+      "categoryLabel": "NOTAS DEL PARCHE",
+      "whatIs": "¿Qué son las notas del parche?",
+      "whatIsDescription": "Las notas del parche detallan cada cambio de balance en la Temporada 9 de Marvel Rivals, incluyendo buffs y nerfs de héroes, reworks de habilidades y actualizaciones del sistema. Los cambios principales de la Temporada 9 incluyen el rework de Viuda Negra y la reducción en la generación de energía de la habilidad definitiva en todos los roles.",
+      "why": "¿Por qué leer las notas del parche?",
+      "whySteps": {
+        "step1Title": "Adáptate al meta",
+        "step1Description": "Mira qué héroes recibieron buffs o nerfs y ajusta tus elecciones en consecuencia.",
+        "step2Title": "Domina los reworks",
+        "step2Description": "Aprende el nuevo kit de Viuda Negra y otros héroes rediseñados antes de hacer cola para partidas clasificatorias.",
+        "step3Title": "Entiende los cambios del sistema",
+        "step3Description": "Sigue los cambios de la energía de la definitiva, el escudo regenerativo y los Team-Ups que afectan a cada partida."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las notas del parche"
+    },
+    "teamups": {
+      "title": "Team-Ups de la Temporada 9 de Marvel Rivals",
+      "description": "Habilidades de Team-Up, combos y sinergias de la Temporada 9 de Marvel Rivals para emparejamientos de Vanguardia, Duelista y Estratega.",
+      "metaTitle": "Team-Ups de la Temporada 9 de Marvel Rivals - Habilidades y combos",
+      "metaDescription": "Domina las habilidades de Team-Up de la Temporada 9 de Marvel Rivals con guías sobre las mejores combinaciones y combos de Vanguardia, Duelista y Estratega.",
+      "categoryLabel": "TEAM-UPS",
+      "whatIs": "¿Qué son los Team-Ups?",
+      "whatIsDescription": "Los Team-Ups son habilidades de héroes emparejados en Marvel Rivals Temporada 9 que activan potentes efectos de bonificación cuando héroes específicos comparten equipo. La Temporada 9 renueva el sistema con loadouts independientes y efectos de compañero mejorados.",
+      "why": "¿Por qué usar Team-Ups?",
+      "whySteps": {
+        "step1Title": "Desbloquea poder de bonificación",
+        "step1Description": "Activa habilidades mejoradas a las que los héroes individuales no pueden acceder por sí solos.",
+        "step2Title": "Crea composiciones más fuertes",
+        "step2Description": "Empareja héroes de Vanguardia, Duelista y Estratega para formar equipos equilibrados y sinérgicos.",
+        "step3Title": "Domina la renovación",
+        "step3Description": "Aprende el nuevo sistema de loadouts independientes y qué efectos de compañero son los más fuertes."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los Team-Ups"
+    },
+    "battlepass": {
+      "title": "Pase de Batalla de Marvel Rivals Temporada 9",
+      "description": "Recompensas, skins, precio, ruta de desbloqueo y la temática Muertes en el Nilo del Pase de Batalla de Marvel Rivals Temporada 9.",
+      "metaTitle": "Pase de Batalla de Marvel Rivals Temporada 9 - Skins y recompensas",
+      "metaDescription": "Guía completa del Pase de Batalla de Marvel Rivals Temporada 9 que cubre skins, recompensas, precio, ruta de desbloqueo y la temática Muertes en el Nilo.",
+      "categoryLabel": "PASE DE BATALLA",
+      "whatIs": "¿Qué es el Pase de Batalla?",
+      "whatIsDescription": "El Pase de Batalla de Marvel Rivals Temporada 9 es un progreso de temporada temático de Muertes en el Nilo. Desbloquea cosméticos, skins de personajes, gestos y divisas mientras juegas, con una ruta gratuita y una ruta premium de pago.",
+      "why": "¿Por qué adquirir el Pase de Batalla?",
+      "whySteps": {
+        "step1Title": "Desbloquea skins exclusivas",
+        "step1Description": "Gana cosméticos de temporada y skins de personajes vinculados a la temática Muertes en el Nilo.",
+        "step2Title": "Maximiza el valor",
+        "step2Description": "Progresa tanto en la ruta gratuita como en la premium para obtener el máximo de recompensas por partida.",
+        "step3Title": "Planifica tu progreso",
+        "step3Description": "Sigue los hitos de desbloqueo y las misiones diarias para completar el pase antes de que termine la temporada."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías del Pase de Batalla"
+    }
   }
 }
