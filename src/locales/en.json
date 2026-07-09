@@ -10,7 +10,14 @@
       "twitterDescription": "Marvel Rivals Season 9 Wiki — heroes, tier lists, Season 9 'Mystery of Thebes' updates, the new map, and the latest redeem codes."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "characters": "Characters",
+    "leaks": "Leaks",
+    "patch": "Patch",
+    "teamups": "Team Ups",
+    "battlepass": "Battle Pass"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -608,125 +615,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Marvel Rivals Season 9 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Marvel Rivals Season 9 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Marvel Rivals Season 9 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Marvel Rivals Season 9 Release Date & Roadmap",
+      "description": "Official Marvel Rivals Season 9 release date, global launch times, season roadmap, new heroes, and The Mystery of Thebes theme.",
+      "metaTitle": "Marvel Rivals Season 9 Release Date & Roadmap - Launch Times",
+      "metaDescription": "Get the official Marvel Rivals Season 9 release date, global launch times, roadmap, new heroes Jubilee and The Hood, and The Mystery of Thebes season theme.",
+      "categoryLabel": "RELEASE & ROADMAP",
+      "whatIs": "What is Season 9?",
+      "whatIsDescription": "Marvel Rivals Season 9, titled The Mystery of Thebes, is the ninth competitive season of the free-to-play 6v6 superhero shooter. It launches globally on July 10, 2026 UTC, introducing an Egyptian-themed Thebes convoy map, the Team-Up Ability Overhaul, Regenerative Shields, and two new heroes.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Know the Exact Launch Time",
+        "step1Description": "Convert the July 10, 2026 UTC release to your local time zone so you can log in the moment servers go live.",
+        "step2Title": "Follow the Roadmap",
+        "step2Description": "See when Jubilee, The Hood, and mid-season updates drop across the Season 9 schedule.",
+        "step3Title": "Prepare for Launch",
+        "step3Description": "Pre-load the client, learn the new mechanics, and queue up the second the season begins."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Guides"
     },
-    "crafting": {
-      "title": "Marvel Rivals Season 9 Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Marvel Rivals Season 9 Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Marvel Rivals Season 9 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "characters": {
+      "title": "Marvel Rivals Season 9 Characters & Heroes",
+      "description": "Every Marvel Rivals Season 9 hero including Jubilee, The Hood, their abilities, roles, and how to play them.",
+      "metaTitle": "Marvel Rivals Season 9 Characters - Jubilee, The Hood & Heroes",
+      "metaDescription": "Complete Marvel Rivals Season 9 character guides covering new heroes Jubilee and The Hood, abilities, roles, and gameplay strategies for every hero.",
+      "categoryLabel": "CHARACTERS & HEROES",
+      "whatIs": "What are Character Guides?",
+      "whatIsDescription": "Character guides break down each Marvel Rivals Season 9 hero including their role as Vanguard, Duelist, or Strategist, their abilities, cooldowns, synergies, and playstyle tips. Season 9 adds Jubilee at launch and The Hood in the mid-season update.",
+      "why": "Why read character guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Master New Heroes",
+        "step1Description": "Learn Jubilee's pyrotechnic Strategist kit and The Hood's mechanics before they shape the meta.",
+        "step2Title": "Understand Roles",
+        "step2Description": "Know whether a hero is a Vanguard, Duelist, or Strategist and how they fit your team composition.",
+        "step3Title": "Improve Your Gameplay",
+        "step3Description": "Apply ability combos, positioning, and synergy tips to climb ranked faster."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Characters"
     },
-    "items": {
-      "title": "Marvel Rivals Season 9 Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Marvel Rivals Season 9 Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Marvel Rivals Season 9 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "leaks": {
+      "title": "Marvel Rivals Season 9 Leaks & Rumors",
+      "description": "Marvel Rivals Season 9 leaks, hero predictions, teased characters, and insider reports including Green Goblin and Miller Ross.",
+      "metaTitle": "Marvel Rivals Season 9 Leaks - Hero Predictions & Rumors",
+      "metaDescription": "Track Marvel Rivals Season 9 leaks, character predictions, teased heroes, and insider reports including Green Goblin and Miller Ross.",
+      "categoryLabel": "LEAKS & RUMORS",
+      "whatIs": "What are Leaks?",
+      "whatIsDescription": "Leaks reveal upcoming Marvel Rivals Season 9 content including unrevealed heroes, skins, and features ahead of official announcements. Sourced from data miners and trusted insiders, they give players an early look at what is coming next.",
+      "why": "Why follow leaks?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Discover Upcoming Heroes",
+        "step1Description": "Get an early look at characters like Green Goblin before their official reveal.",
+        "step2Title": "Plan Your Resources",
+        "step2Description": "Save currency and unlock materials for the heroes you actually want to play.",
+        "step3Title": "Stay Ahead of the Meta",
+        "step3Description": "Prepare strategies for upcoming content before it reaches the live servers."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Leaks & Rumors"
     },
-    "biomes": {
-      "title": "Marvel Rivals Season 9 Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Marvel Rivals Season 9 Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Marvel Rivals Season 9 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "patch": {
+      "title": "Marvel Rivals Season 9 Patch Notes & Balance",
+      "description": "Marvel Rivals Season 9 patch notes, balance changes, buffs, nerfs, and the Black Widow rework broken down by hero and system.",
+      "metaTitle": "Marvel Rivals Season 9 Patch Notes - Buffs, Nerfs & Balance",
+      "metaDescription": "Full Marvel Rivals Season 9 patch notes covering balance changes, buffs, nerfs, the Black Widow rework, and ultimate energy adjustments.",
+      "categoryLabel": "PATCH NOTES",
+      "whatIs": "What are Patch Notes?",
+      "whatIsDescription": "Patch notes detail every balance change in Marvel Rivals Season 9 including hero buffs, nerfs, ability reworks, and system updates. Season 9 headline changes include the Black Widow rework and reduced ultimate energy generation across all roles.",
+      "why": "Why read patch notes?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Adapt to the Meta",
+        "step1Description": "See which heroes got buffed or nerfed and adjust your picks accordingly.",
+        "step2Title": "Master the Reworks",
+        "step2Description": "Learn the new Black Widow kit and other reworked heroes before queuing ranked.",
+        "step3Title": "Understand System Changes",
+        "step3Description": "Track ultimate energy, Regenerative Shield, and Team-Up changes that affect every match."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Patch Notes"
     },
-    "building": {
-      "title": "Marvel Rivals Season 9 Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Marvel Rivals Season 9 Building - Qualia & Base Construction",
-      "metaDescription": "Master Marvel Rivals Season 9 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "teamups": {
+      "title": "Marvel Rivals Season 9 Team-Ups",
+      "description": "Marvel Rivals Season 9 Team-Up abilities, combos, and synergies for Vanguard, Duelist, and Strategist pairings.",
+      "metaTitle": "Marvel Rivals Season 9 Team-Ups - Abilities & Combos",
+      "metaDescription": "Master Marvel Rivals Season 9 Team-Up abilities with guides on the best Vanguard, Duelist, and Strategist pairings and combos.",
+      "categoryLabel": "TEAM-UPS",
+      "whatIs": "What are Team-Ups?",
+      "whatIsDescription": "Team-Ups are paired hero abilities in Marvel Rivals Season 9 that trigger powerful bonus effects when specific heroes share a team. Season 9 overhauls the system with independent loadouts and enhanced partner effects.",
+      "why": "Why use Team-Ups?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Unlock Bonus Power",
+        "step1Description": "Trigger enhanced abilities that single heroes cannot access alone.",
+        "step2Title": "Build Stronger Comps",
+        "step2Description": "Pair Vanguard, Duelist, and Strategist heroes for balanced, synergistic teams.",
+        "step3Title": "Master the Overhaul",
+        "step3Description": "Learn the new independent loadout system and which partner effects are strongest."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Team-Ups"
     },
-    "support": {
-      "title": "Marvel Rivals Season 9 Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Marvel Rivals Season 9 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Marvel Rivals Season 9 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "battlepass": {
+      "title": "Marvel Rivals Season 9 Battle Pass",
+      "description": "Marvel Rivals Season 9 Battle Pass rewards, skins, price, unlock path, and the Deaths on the Nile theme.",
+      "metaTitle": "Marvel Rivals Season 9 Battle Pass - Skins & Rewards",
+      "metaDescription": "Complete Marvel Rivals Season 9 Battle Pass guide covering skins, rewards, price, unlock path, and the Deaths on the Nile theme.",
+      "categoryLabel": "BATTLE PASS",
+      "whatIs": "What is the Battle Pass?",
+      "whatIsDescription": "The Marvel Rivals Season 9 Battle Pass is a seasonal progression track themed around Deaths on the Nile. It unlocks cosmetics, character skins, emotes, and currency as you play, with a free track and a premium paid track.",
+      "why": "Why get the Battle Pass?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Unlock Exclusive Skins",
+        "step1Description": "Earn seasonal cosmetics and character skins tied to the Deaths on the Nile theme.",
+        "step2Title": "Maximize Value",
+        "step2Description": "Progress both free and premium tracks to get the most rewards per game.",
+        "step3Title": "Plan Your Grind",
+        "step3Description": "Track unlock milestones and daily missions to finish the pass before the season ends."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Battle Pass Guides"
     }
   }
 }

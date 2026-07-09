@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "marvel rivals season 9 patch: Full Notes & Balance Changes",
+  description: "Explore the massive Marvel Rivals Season 9 patch notes. Discover the new Regenerative Shields mechanic, ultimate charge nerfs, and hero balance changes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+9+Patch+Notes",
+  date: "2026-07-09",
+  author: "marvel rivals season 9 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Update**: The **marvel rivals season 9 patch** introduces a ground-up rework of the Team-Up system and hero balance.
+- **New Mechanic**: Highly mobile dive heroes now utilize **Regenerative Shields** that recover after 5 seconds of avoiding damage.
+- **Ultimate Nerfs**: Global ultimate energy generation is reduced across all three roles to slow down combat pacing.
+- **Team-Up Anchor Removal**: Stat-boosting Team-Up Anchors have been removed, replaced by direct baseline stat adjustments.
+- **Meta Shift**: Massive buffs to Vanguard and Duelist survival tools balance out the loss of raw anchor health.
+</Callout>
+
+<Section icon={Map} title="Marvel Rivals Season 9 Patch: Global System Overhauls">
+
+The **marvel rivals season 9 patch** completely reshapes the landscape of NetEase's heroic shooter. The balance team has focused on introducing structural mechanics that replace the old, static stat bonuses from the Team-Up system. Instead of relying on passive anchor buffs, the roster now features a highly reactive shield health type, alongside tuned ultimate charge rates to ensure combat feels dynamic yet deliberate.
+
+**Video Highlights:**
+- **Ultimate Charge Nerf**: A deep dive into the math behind the global ultimate generation reduction.
+- **Regenerative Shields**: How the new green-health mechanic works for dive heroes like Hulk, Venom, and Captain America.
+- **Vanguard & Duelist Shifts**: Extensive stat adjustments following the removal of the Team-Up Anchor system.
+
+<YouTubeEmbed videoId="ZQ6-QrDxoo4" title="Marvel Rivals Season 9 Patch Notes Are HERE!!!" />
+
+### Global Ultimate Energy Generation Changes
+To align with the massive gameplay adjustments introduced in Season 9, the efficiency of ultimate ability energy generation has been reduced across the board. This ensures that ultimate abilities are earned through active, high-impact plays rather than passive stalemates.
+
+| Role Group | Old Energy Conversion Rate | New Energy Conversion Rate | Impact Rating |
+|---|---|---|---|
+| **Vanguards & Duelists (Damage to Ult)** | 70% | **55%** | High Nerf |
+| **Strategists (Healing to Ult)** | 75% | **60%** | Moderate Nerf |
+| **Strategists (Damage to Ult)** | 75% | **55%** | High Nerf |
+
+### The New Regenerative Shields Mechanic
+Season 9 officially introduces a brand-new type of health: **Regenerative Shields**. This mechanic operates identically to base health for percentage-based healing and damage calculations, but possesses a powerful passive recovery trait.
+
+<Callout type="success" title="Shield Recovery Rules">
+If you manage to avoid taking damage for **5 seconds**, your Regenerative Shields will automatically begin generating, fully recovering all chargeable shield points over the next **5 seconds**. For example, a 300 shield pool recovers at 60 points per second, while a 150 shield pool recovers at 30 points per second.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Vanguard Class Balance Adjustments">
+
+Vanguards are receiving massive structural reworks in the **marvel rivals season 9 patch**. With the removal of the 100 to 150 bonus health Team-Up Anchors, several tanks have had their base health slashed and supplemented with Regenerative Shields. This makes dive tanks highly elusive but easier to burst down if caught out of position.
+
+<CardGrid cols={3}>
+  <Card title="Hulk Buffed">
+    - **Heavy Blow**: Damage increased from 40 to **45**.
+    - **Health Split**: Base health reduced to 400; gained **300 Regenerative Shield**.
+    - **Ultimate**: Hulk Smash energy cost increased to 3700.
+  </Card>
+  <Card title="Thor Rising">
+    - **Hammer Throw**: Damage increased to **50** (throw) and **25** (return).
+    - **Health Split**: Base health reduced to 300; gained **300 Regenerative Shield**.
+    - **Bonus Health**: Hit bonus increased from 50 to **75**.
+  </Card>
+  <Card title="Venom Reeled In">
+    - **Base Health**: Reduced from 675 to **500**.
+    - **Shield Addition**: Gained **250 Regenerative Shield**.
+    - **Net Health**: Total pool reduced from 825 to **750**.
+  </Card>
+</CardGrid>
+
+### Detailed Vanguard Stat Changes
+The removal of Team-Up Anchors means some Vanguards have lost raw health, while others received direct compensation buffs to remain viable frontliners.
+
+| Hero | Base Health Change | Shield Added | Key Ability Adjustments |
+|---|---|---|---|
+| **Angela** | 450 to **350** | **200 Regenerative** | Lost 100 HP Team-Up Anchor bonus |
+| **Captain America** | 600 to **300** | **300 Regenerative** | Lost 100 HP Team-Up Anchor bonus |
+| **Deadpool (Vanguard)** | 450 to **500** | None | Desert Eagles damage increased to **36** / **40** |
+| **Devil Dinosaur** | 750 to **850** | None | Critical hit damage reduction increased to **60%** |
+| **Doctor Strange** | 575 to **650** | None | Shield of Seraphim value increased to **850** |
+| **Groot** | 700 to **850** | None | Baseline health increased to compensate for anchor loss |
+| **Rogue** | 650 to **350** | **225 Regenerative** | Defensive Stance damage reduction reduced to **55%** |
+| **The Thing** | Baseline | None | Stone Haymaker bonus health increased to **150** |
+
+<Callout type="warning" title="Rogue & Cap Nerfed">
+Rogue and Captain America both suffer net health losses in this patch. Rogue loses 75 total health alongside a 5% reduction to her Defensive Stance damage mitigation, while Cap loses 100 total health, making them much more reliant on defensive positioning.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Duelist Class Balance Adjustments">
+
+Duelists are trading raw health for high-speed hit-and-run capabilities. The introduction of Regenerative Shields allows flankers to dive the backline, escape, and regenerate their health pools without constantly relying on their Strategists.
+
+### Duelist Stat Conversions & Skill Tweaks
+
+| Hero | Base Health | Regenerative Shield | Key Skill Adjustments |
+|---|---|---|---|
+| **Black Cat** | **150** (was 275) | **125** | Fortune Cap increased to **1200** |
+| **Black Panther** | **150** (was 275) | **125** | Lost 5% Team-Up Anchor damage bonus |
+| **Cyclops** | **250** | None | Optic Blast damage reduced to **21**; cooldowns increased |
+| **Daredevil** | **150** (was 300) | **150** | Lost 5% Team-Up Anchor damage bonus |
+| **Elsa Bloodstone** | Baseline | None | Ammo increased to **12**; Helix Advanced cooldown increased |
+| **Hawkeye** | Baseline | None | Piercing Arrow speed increased to **130** - **195 m/s** |
+| **Hela** | Baseline | None | Night Sword damage increased to **80**; can fly freely in Crow form |
+| **Magic** | **150** (was 250) | **125** | Net health increased by 25 points |
+| **Psylocke** | **150** (was 250) | **125** | Crossbow damage increased to **13** |
+
+<Callout type="tip" title="Hela Flying High">
+While Hela lost her 15% Team-Up Anchor damage bonus, she can now fly freely in any direction while in Crow form. Momentum carries over, allowing skilled players to bunny-hop and maintain high mobility.
+</Callout>
+
+### Cyclops & Iron Man Tuning
+NetEase has heavily targeted overperforming DPS heroes. Cyclops has had his single-hit damage and ricochet force scaled down, while his mobility cooldown has been lengthened. Iron Man's repulsor blast splash damage and Uni Beam damage have also been slightly shaved down to balance out his powerful new Team-Up synergies.
+
+</Section>
+
+<Section icon={Target} title="Strategist Class Balance Adjustments">
+
+The **marvel rivals season 9 patch** shifts the Strategist role away from raw damage output, focusing instead on pure utility and localized healing output. Several supports have had their Team-Up damage bonuses removed in favor of direct healing buffs.
+
+<Steps>
+  <Step num="1" title="Analyze Luna Snow's IDOL Shift">
+    Luna Snow loses her 10% self-damage boost from Number One Idol. In return, her self-healing boost is doubled to **20%**, and her attached ally idle aura healing is increased to **40%**.
+  </Step>
+  <Step num="2" title="Evaluate Rocket Raccoon's Utility Nerf">
+    Rocket's C-I-A ultimate energy cost has been increased to 4300. Additionally, a distance-based falloff has been added, causing the damage boost and bonus health to decay starting at 8 meters, down to 60% at 20 meters.
+  </Step>
+  <Step num="3" title="Review Cloak & Dagger Compensation">
+    To offset the loss of the 15% Team-Up Anchor healing bonus, their baseline Light Force healing is buffed: direct hit healing is up to **15**, and lingering spell healing is up to **25**.
+  </Step>
+</Steps>
+
+### Strategist Healing & Health Adjustments
+
+| Strategist | Health Change | Healing Skill Adjustments |
+|---|---|---|---|
+| **Adam Warlock** | 250 to **275** | Cosmic Cluster damage increased to **35** |
+| **Gambit** | Baseline | Kinetic Cards healing increased to **30** |
+| **Invisible Woman** | Baseline | Outgoing orb healing increased to **50**; return healing to **40** |
+| **Mantis** | Baseline | Enhanced healing flower when paired with Star-Lord |
+| **Ultron** | Baseline | Imperative Firewall drone healing increased to **35/s** |
+| **White Fox** | Baseline | Spirit Sanctuary cooldown increased to **15s**; Ult health up to **1200** |
+
+</Section>
+
+<Section icon={Trophy} title="Season 9 Checklist & Goals">
+
+To make the most of the massive balance adjustments and master the new systems, players should focus on adapting to the shield mechanics and team compositions.
+
+<Checklist
+  id="season-9-goals"
+  title="Essential Season 9 Milestones:"
+  items={[
+    "Master the 5-second rule for Regenerative Shields on dive heroes",
+    "Adapt to the slower ultimate pacing across all three roles",
+    "Test the new dual Team-Up loadouts in the spawn room",
+    "Practice Hela's new free-flying Crow momentum mechanics",
+    "Build team compositions around the buffed Doctor Strange and Thor"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the biggest change in the marvel rivals season 9 patch?",
+    answer: "The biggest changes are the introduction of the Regenerative Shields mechanic for mobile heroes, the global reduction in ultimate energy generation, and the complete removal of stat-boosting Team-Up Anchors."
+  },
+  {
+    question: "How do Regenerative Shields work?",
+    answer: "Regenerative Shields act like base health but automatically regenerate to full over 5 seconds if you manage to avoid taking damage for 5 consecutive seconds."
+  },
+  {
+    question: "Why did my favorite hero lose health in Season 9?",
+    answer: "NetEase removed the passive Team-Up Anchor system which previously granted bonus health. Many heroes had their base stats adjusted or received Regenerative Shields to compensate."
+  },
+  {
+    question: "Is Rocket Raccoon weaker in this patch?",
+    answer: "Yes. While his baseline healing received minor adjustments, his ultimate ability costs more energy and now suffers from distance-based falloff, reducing its effectiveness at longer ranges."
+  }
+]} />
+
+</Section>

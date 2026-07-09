@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Notas del parche de la Temporada 9 de Marvel Rivals: Equilibrio de héroes y cambios en el meta",
+  description: "Sumérgete en las enormes notas del parche de la Temporada 9 de Marvel Rivals. Descubre los nuevos escudos regenerativos, los nerfs de energía definitiva y los grandes ajustes de equilibrio de héroes para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+9+Patch+Notes",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Marvel Rivals Temporada 9",
+  keywords: "Marvel Rivals, Temporada 9, notas del parche, equilibrio de héroes, cambios en el meta, escudos regenerativos"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las notas del parche de la Temporada 9 de Marvel Rivals** introducen una reestructuración masiva que afecta al 80% del plantel.
+- **Los escudos regenerativos** son un nuevo tipo de salud que se recupera tras evitar recibir daño durante 5 segundos.
+- **La generación de energía definitiva** ha sido nerfeada en todos los roles para ralentizar el ritmo del combate.
+- **Los Vanguardias y Duelistas** han recibido los golpes más duros en sus tasas de conversión de energía.
+- **Hulk y Thor** están emergiendo como opciones de primer nivel debido a mejoras significativas en daño y movilidad.
+</Callout>
+
+<Section icon={Activity} title="Mecánicas globales y escudos regenerativos">
+
+Las **notas del parche de la Temporada 9 de Marvel Rivals** representan uno de los cambios más significativos en la historia del juego. El enfoque principal de esta actualización es gestionar el "incremento de poder" (power creep) acumulado en temporadas anteriores, al tiempo que se introduce una nueva capa de profundidad táctica a través de una nueva mecánica de salud. Los desarrolladores han ajustado la eficiencia de la generación de energía de las habilidades definitivas para garantizar que el combate siga siendo emocionante sin convertirse en un festival constante de "ults".
+
+**Puntos destacados del video:**
+- **Nerfs de energía**: Desglose detallado de las reducciones en la conversión de daño a energía para todos los roles.
+- **Mecánica de escudos**: Cómo funciona la nueva regeneración fuera de combate de 5 segundos para héroes específicos.
+- **Reestructuraciones de héroes**: Un primer vistazo a los enormes cambios de estadísticas para Hulk, Capitán América e Iron Man.
+
+<YouTubeEmbed videoId="ZQ6-QrDxoo4" title="Marvel Rivals Season 9 Patch Notes Are HERE!!!" />
+
+La adición más transformadora es el **Escudo regenerativo**. Funcionando de manera similar a la salud base para los cálculos de daño, estos escudos comienzan a generarse automáticamente si un jugador evita recibir daño durante 5 segundos. Esta mecánica está diseñada principalmente para héroes de asalto (dive), permitiéndoles retirarse del combate, recuperarse y volver a la refriega sin depender únicamente de los Estrategas.
+
+| Métrica | Valor anterior | Nuevo valor (Temporada 9) |
+| :--- | :--- | :--- |
+| **Conversión de energía de Vanguardia** | 70% | 55% |
+| **Conversión de energía de Duelista** | 70% | 55% |
+| **Conversión de curación de Estratega** | 75% | 60% |
+| **Conversión de daño de Estratega** | 75% | 55% |
+
+<Callout type="warning" title="Cambio en el meta">
+Los Estrategas ahora tienen los tiempos de carga de definitiva relativamente más rápidos, ya que sus nerfs fueron los menos impactantes en comparación con los Vanguardias y Duelistas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ajustes del rol de Vanguardia: El ascenso del gigante verde">
+
+La clase Vanguardia ha experimentado una redistribución dramática de estadísticas. Muchos héroes han cambiado su salud base bruta por los nuevos escudos regenerativos. Esto los hace más resistentes en las fases de hostigamiento (poke), pero potencialmente más vulnerables al daño de ráfaga (burst) si los atrapan fuera de posición. Hulk, en particular, ha sido remodelado como un "demonio" en el campo de batalla con un mayor daño de puñetazo y una reserva de escudo masiva.
+
+<CardGrid cols={3}>
+  <Card title="Hulk">
+    - **Daño de Golpe pesado**: Incrementado de 40 a 45.
+    - **Reserva de salud**: 400 Base + 300 Escudo regenerativo.
+    - **Vedicto**: Potencial de asalto (dive) extremadamente agresivo.
+  </Card>
+  <Card title="Thor">
+    - **Lanzamiento de martillo**: Daño incrementado a 50 (ida) y 25 (vuelta).
+    - **Movilidad**: Distancia de viaje de Oleada de tormenta incrementada.
+    - **Vedicto**: Alta supervivencia y mejor hostigamiento.
+  </Card>
+  <Card title="Venom">
+    - **Nerf de salud**: Salud total reducida de 825 a 750.
+    - **Escudos**: Incluye 250 de escudo regenerativo.
+    - **Vedicto**: Primer nerf de su historia, pero sigue dominando en asaltos.
+  </Card>
+</CardGrid>
+
+La sinergia de Hulk con Wolverine en el nuevo sistema de alianza (team-up) le permite golpear más rápido, lo que, combinado con la mejora del daño base, lo convierte en una pesadilla para los soportes de la retaguardia. De manera similar, las mejoras de Thor en su lanzamiento de martillo y la generación de salud adicional a partir de habilidades lo convierten en una estrella en ascenso en el meta actual de 2026.
+
+| Héroe | Cambio de salud base | Adición de escudo | Cambio de anclaje de alianza |
+| :--- | :--- | :--- | :--- |
+| **Capitán América** | 600 a 300 | +300 Escudo reg. | -100 Salud adicional |
+| **Doctor Strange** | 575 to 650 | N/A | -100 Salud adicional |
+| **Groot** | 700 to 850 | N/A | -100 Salud adicional |
+| **La Cosa** | 600 (aprox) | +150 (Golpeador) | N/A |
+
+<Callout type="tip" title="Estrategia profesional">
+Al jugar como La Cosa, utiliza "Hora de pelear" inmediatamente después de una "Embestida de batalla" para cancelar las animaciones y maximizar tu potencial de encadenamiento de aturdimientos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cambios de nivel para Duelistas y Estrategas">
+
+Los Duelistas en las **notas del parche de la Temporada 9 de Marvel Rivals** han sido ajustados para recompensar el juego de alta habilidad mientras se castiga el mal posicionamiento. Héroes como Hela e Iron Man han visto sus números base reducidos para compensar las nuevas y poderosas sinergias de alianza. Hela, por ejemplo, ha obtenido la capacidad de volar libremente en cualquier dirección durante su forma de cuervo, otorgándole una movilidad vertical sin precedentes.
+
+<Steps>
+  <Step num="1" title="Domina el nuevo vuelo de Hela">
+    Hela ahora puede volar en cualquier dirección en forma de cuervo. Usa la conservación de impulso para hacer "B-hop" por el mapa y lograr rotaciones más rápidas.
+  </Step>
+  <Step num="2" title="Utiliza las sinergias de Psylocke">
+    Empareja a Psylocke con Emma Frost para obtener generación de escudo adicional, o con Cloak y Dagger para un aumento de daño bruto en su ballesta.
+  </Step>
+  <Step num="3" title="Optimiza la Sobrecarga de Iron Man">
+    Incluso con los nerfs de daño en sus repulsores, concéntrate en usar Sobrecarga de armadura durante las ventanas de alianza para mantener un DPS alto.
+  </Step>
+</Steps>
+
+Los Estrategas también han recibido ajustes significativos. Adam Warlock ahora es más robusto con 275 de salud base, y su capacidad de magia cuántica aumenta significativamente cuando se empareja con Ultrón. Mientras tanto, Luna Snow se está alejando de un rol híbrido de DPS hacia un sanador puro, con su "Ídolo número uno" proporcionando ahora un aumento de curación del 20% en lugar de un aumento de daño.
+
+| Estratega | Cambio de curación | Cambio de utilidad |
+| :--- | :--- | :--- |
+| **Cloak & Dagger** | 12 a 15 (Daga) | Eliminado el 15% de bonificación de anclaje |
+| **Luna Snow** | +20% de autocuración | Eliminado el 10% de aumento de daño |
+| **Rocket Raccoon** | 50 a 55 (Orbe) | Añadida caída de daño de definitiva (8m-20m) |
+| **Ultrón** | 30 a 35 (Dron) | Soporte de dron mejorado |
+
+<Callout type="success" title="Consejo de soporte">
+Los jugadores de Mantis deberían priorizar emparejarse con Star-Lord esta temporada. La producción de flores curativas salta a 15 + 3% de la salud máxima, convirtiéndola en la sanadora de tanques por excelencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sistema de alianza y análisis del incremento de poder">
+
+Los desarrolladores admitieron que algunos nerfs eran necesarios porque ciertos héroes se volvieron "completamente desequilibrados" en las pruebas de juego internas con el nuevo sistema de alianza. Se espera que el regreso de la Carga Gamma (Hulk, Iron Man) y las nuevas sinergias de Fénix/Hela definan el panorama competitivo durante el resto de 2026.
+
+**Puntos destacados de las alianzas clave:**
+- **Carga Gamma**: Hulk e Iron Man regresan a su máximo poder, lo que requirió nerfs en sus estadísticas base para mantenerlos bajo control.
+- **Mujer Invisible y Dr. Strange**: Proporciona a Strange un asombroso valor de escudo total de 1,000.
+- **La Cosa y Antorcha Humana**: Permite puñetazos más rápidos y reinicios de aturdimiento, haciendo que Ben Grimm sea casi inmortal.
+
+<Checklist
+  id="season-9-goals"
+  title="Lista de tareas para el lanzamiento de la Temporada 9:"
+  items={[
+    "Probar la regeneración de escudo de 5 segundos en héroes de asalto",
+    "Desbloquear las nuevas mecánicas de vuelo de Hela",
+    "Experimentar con el combo de curación de Star-Lord y Mantis",
+    "Adaptarse a las tasas de ganancia de energía definitiva más lentas",
+    "Dominar las cancelaciones de animación de La Cosa"
+  ]}
+/>
+
+<Callout type="info" title="Vedicto final">
+Aunque algunos jugadores temen el "incremento de poder" de la Temporada 9, los ajustes en los tipos de salud y la generación de definitivas sugieren un ciclo de juego más táctico y menos caótico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funcionan los nuevos escudos regenerativos en la Temporada 9 de Marvel Rivals?",
+    answer: "Los escudos regenerativos funcionan como la salud base, pero comienzan a recuperarse automáticamente a un ritmo establecido (por ejemplo, 60 por segundo) después de evitar recibir daño durante 5 segundos."
+  },
+  {
+    question: "¿Por qué Hulk e Iron Man recibieron nerfs de daño en las notas del parche?",
+    answer: "Sus nuevas sinergias de alianza eran tan fuertes en las pruebas de juego que los desarrolladores tuvieron que reducir sus estadísticas base para evitar que se volvieran completamente desequilibrados."
+  },
+  {
+    question: "¿Qué rol tiene la carga de definitiva más rápida en la Temporada 9?",
+    answer: "Los Estrategas tienen actualmente los tiempos de carga relativos más rápidos porque sus nerfs de conversión de energía (al 60%) fueron menos severos que la tasa del 55% aplicada a Vanguardias y Duelistas."
+  },
+  {
+    question: "¿Sigue siendo viable Hela tras la eliminación del 15% de bonificación de daño?",
+    answer: "Sí. Aunque perdió su bonificación de daño de anclaje, su nueva forma de cuervo con vuelo libre y el aumento del daño base de su espada (80) la hacen más móvil y letal en las manos adecuadas."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "characters": "Personajes",
+    "leaks": "Filtraciones",
+    "patch": "Patch",
+    "teamups": "Team Ups",
+    "battlepass": "Pase de Batalla"
+  }
+}

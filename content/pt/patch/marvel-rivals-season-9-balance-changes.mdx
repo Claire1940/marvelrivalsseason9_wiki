@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mudanças de Equilíbrio da Temporada 9 de Marvel Rivals: Análise Completa do Patch",
+  description: "Analise as massivas mudanças de equilíbrio da Temporada 9 de Marvel Rivals, apresentando novos Escudos Regenerativos, ajustes de energia Ultimate e atualizações de Team-Up.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b1e0f/fff?text=Season+9+Balance+Changes",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Marvel Rivals Temporada 9"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: As massivas **mudanças de equilíbrio da temporada 9 de Marvel Rivals** reestruturam completamente o ritmo de combate, a durabilidade dos heróis e as recompensas de sinergia.
+- **Nerfs de Ultimates**: Todas as funções passam por uma redução global na geração de energia Ultimate, diminuindo a frequência de habilidades que decidem a partida.
+- **Escudos Regenerativos**: Uma mecânica de sustentação inédita permite que Vanguardas selecionados recuperem partes de sua vida automaticamente.
+- **Reformulação do Team-Up**: Os bônus fixos de âncora acabaram, substituídos por bônus de parceiros altamente específicos que recompensam escolhas inteligentes na seleção de heróis.
+- **Data de Lançamento**: Temporada 9: O Mistério de Tebas lança oficialmente em todo o mundo em **10 de julho de 2026 UTC**.
+</Callout>
+
+<Section icon={Shield} title="Sistemas Globais: Energia Ultimate e Escudos Regenerativos">
+
+O lançamento da Temporada 9: O Mistério de Tebas introduz atualizações estruturais que redefinem o fluxo das lutas de equipe 6v6. Em vez de depender de rotações rápidas de ultimates para garantir objetivos, as equipes agora devem focar no posicionamento, gerenciamento de recargas e jogo tático neutro.
+
+**Destaques do Vídeo:**
+- **Desaceleração de Ultimates**: Taxas de carga de ultimate mais lentas forçam os jogadores a valorizar cada ativação.
+- **Mecânicas de Sustentação**: Escudos Regenerativos recompensam jogadores que utilizam cobertura e rotas de recuo inteligentes.
+- **Sinergia Team-Up**: Mecânicas de parceiros reformuladas tornam a seleção de heróis uma fase estratégica crucial.
+
+<YouTubeEmbed videoId="YusekrZKvwQ" title="Marvel Rivals Season 9 Trailer" />
+
+A redução global na geração de energia Ultimate afeta todas as três funções. Essa mudança limita o spam de ultimates em sequência e coloca uma ênfase maior na habilidade mecânica consistente.
+
+| Função | Tipo de Ação | Taxa de Conversão Antiga | Nova Taxa de Conversão |
+|------|-------------|---------------------|---------------------|
+| **Vanguarda** | Dano para Energia | 70% | **55%** |
+| **Duelista** | Dano para Energia | 70% | **55%** |
+| **Estrategista** | Cura para Energia | 75% | **60%** |
+| **Estrategista** | Dano para Energia | 75% | **55%** |
+
+Além disso, a Temporada 9 introduz os **Escudos Regenerativos**. Esta nova mecânica de durabilidade funciona de forma semelhante à vida base para cálculos de cura e dano baseados em porcentagem, mas apresenta um ciclo de recuperação exclusivo fora de combate.
+
+| Regra do Escudo | Detalhes da Mecânica | O que o jogador precisa saber |
+|-------------|------------------|-----------------|
+| **Atraso de Ativação** | Começa a regenerar após evitar dano por **5 segundos**. | Use terrenos elevados e cobertura física para ativar a recuperação. |
+| **Taxa de Recuperação** | Restaura totalmente os pontos de escudo carregáveis nos **5 segundos** seguintes. | Coordene com seu Estrategista para manter o espaço durante a recuperação. |
+| **Distribuição de Função** | Atribuído a linha de frente selecionados, como Capitão América e Hulk. | Rotações de linha de frente são mais tolerantes se você gerenciar bem a cobertura. |
+
+<Callout type="warning" title="Aviso de Sustentação">
+Como a conversão de cura para ultimate dos Estrategistas caiu para 60%, os curandeiros não podem salvar companheiros de equipe avançados demais tão rapidamente. Gerenciar seu próprio Escudo Regenerativo é essencial para a sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mudanças de Equilíbrio em Vanguardas e Duelistas">
+
+Vanguardas e Duelistas passam por ajustes significativos de atributos na Temporada 9. Vanguardas trocam pontos de vida brutos por Escudos Regenerativos, enquanto Duelistas veem ajustes em seu dano de cutucada (poke) base e ferramentas de mobilidade para equilibrar o campo de jogo.
+
+<CardGrid cols={3}>
+  <Card title="Capitão América">
+    - **Troca de Vida**: Alterado de 600 de Vida base para 300 de Vida base e **300 de Escudo Regenerativo**.
+    - **Foco em Sustentação**: Altamente recompensado por usar cobertura temporária para regenerar o valor do escudo.
+  </Card>
+  <Card title="Hulk">
+    - **Ajuste de Atributos**: Alterado de 650 de Vida base para 400 de Vida base e **300 de Escudo Regenerativo**.
+    - **Buff Ofensivo**: Dano do Golpe Pesado aumentado de **40 para 45** para melhor poder de briga.
+  </Card>
+  <Card title="Doutor Estranho">
+    - **Aumento de Durabilidade**: Vida base aumentada para **650**.
+    - **Upgrade de Escudo**: Valor do Escudo dos Serafins aumentado de **700 para 850**.
+  </Card>
+</CardGrid>
+
+Duelistas também receberam ajustes de equilíbrio direcionados. Heróis de poke de precisão ganham consistência, enquanto algumas opções de explosão (burst) foram ajustadas para se alinharem à nova estrutura de Team-Up.
+
+| Herói | Habilidade Afetada | Ajuste de Equilíbrio | Impacto e Estilo de Jogo |
+|------|------------------|--------------------|--------------------|
+| **Hela** | Espinho da Espada Noturna | Dano base aumentado de **70 para 80** | Poke de precisão mais forte e punitivo. |
+| **Hela** | Revoada Astral | Ganha voo direcional livre | Fuga e reposicionamento significativamente melhorados. |
+| **Gavião Arqueiro** | Flechas Carregadas | Velocidade de carga mais rápida e maior dano parcial | Mais eficaz em escaramuças de médio alcance. |
+| **Ciclope** | Explosão Óptica | Dano base reduzido de **25 para 21** | Redução da pressão de burst básica. |
+| **Ciclope** | Propulsão a Jato | Recarga aumentada de **12s para 15s** | Punido severamente por mau posicionamento. |
+
+<Callout type="tip" title="Estratégia de Vanguarda">
+Vanguardas com Escudos Regenerativos devem rotacionar suas recargas defensivas. Deixe seu escudo absorver o poke inicial, recue para trás de uma barreira para deixá-lo regenerar e volte para a luta sem drenar os recursos do seu Estrategista.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mudanças de Equilíbrio em Estrategistas">
+
+Os Estrategistas enfrentam um desafio duplo na Temporada 9: suas habilidades ultimate carregam mais devagar, mas suas ferramentas de cura direta e utilidade foram ajustadas para encorajar jogadas ativas.
+
+| Herói Estrategista | Habilidade/Atributo | Detalhes da Mudança | Impacto no Meta |
+|-----------------|--------------|----------------|-------------|
+| **Manto e Adaga** | Cura Direta e de Campo | Aumentos amplos de saída em todas as habilidades de cura | Sustentação de área e burst de alto nível. |
+| **Luna Snow** | Ídolo Número Um | Bônus de dano removido | Menos utilidade ofensiva para os companheiros. |
+| **Luna Snow** | Bônus de Cura | Aumentado de **10% para 20%** | Potencial de salvamento de alvo único muito mais forte. |
+| **Rocket Raccoon** | Modo de Reparo | Saída de cura aumentada de **50 para 55** | Saída de cura principal confiável e consistente. |
+| **Rocket Raccoon** | C.Y.A. (Ultimate) | Aumento do custo da Ultimate e adição de queda de eficácia por distância | Requer posicionamento e tempo precisos. |
+| **Ultron** | Imperativo: Firewall | Cura de área do drone aumentada de **30/s para 35/s** | Maior capacidade de segurar pontos. |
+
+<Callout type="success" title="Mudança no Meta">
+Com Manto e Adaga recebendo buffs de cura direta e o Doutor Estranho ganhando upgrades massivos de escudo, espera-se que composições defensivas de alta sustentação liderem o meta inicial da Temporada 9.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Atualizações de Sinergia Team-Up">
+
+Um dos aspectos mais impactantes das **mudanças de equilíbrio da temporada 9 de Marvel Rivals** é a limpeza completa dos bônus de Âncora de Team-Up. Bônus fixos de Vida, Dano ou Cura foram removidos. Em vez disso, os jogadores são recompensados com mecânicas específicas baseadas em parceiros.
+
+<CardGrid cols={2}>
+  <Card title="Sinergias de Defesa e Utilidade">
+    - **Doutor Estranho + Mulher Invisível**: Escudo dos Serafins ganha **+150 de valor de escudo** (1000 no total).
+    - **Adam Warlock + Ultron**: Capacidade de munição de Magia Quântica aumenta de **15 para 25**.
+    - **Mantis + Adam Warlock**: Autocura de Mantis aumenta de **12.5/s para 17.5/s** durante Raiva Natural.
+  </Card>
+  <Card title="Sinergias Ofensivas e de Dano">
+    - **Elsa Bloodstone + Dinossauro Demônio**: Dano dos projéteis do Blaster de Cano Duplo aumenta de **4.5 para 5**.
+    - **Justiceiro + Demolidor**: Restaura os valores de dano de Adjudicação e Libertação para compensar nerfs no kit base.
+    - **Psylocke + Manto e Adaga**: Dano base de acerto único da Besta Psiônica aumenta de **13 para 14**.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Prioridade de Escolha">
+Sempre verifique as escolhas de heróis da sua equipe antes de confirmar. Escolher um herói que faz par direto com a seleção de um aliado oferece uma vantagem mecânica massiva que escolhas solo não conseguem igualar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Lançamento da Temporada 9">
+
+Prepare sua conta e estratégia antes do lançamento da Temporada 9: O Mistério de Tebas em 10 de julho de 2026 UTC.
+
+<Checklist
+  id="season-9-prep"
+  title="Prioridades do Primeiro Dia:"
+  items={[
+    "Baixe a atualização da Temporada 9 no Steam, PlayStation 5 ou Xbox Series X|S.",
+    "Resgate os Twitch Drops disponíveis vinculando sua conta e assistindo a transmissões qualificadas.",
+    "Teste o kit de Estrategista pirotécnico da Jubileu no Campo de Treinamento.",
+    "Jogue com um parceiro para testar as habilidades Team-Up redesenhadas no Jogo Rápido.",
+    "Ajuste seu estilo de jogo para acomodar taxas de carga de Ultimate mais lentas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+Revise estas perguntas frequentes sobre as mudanças de sistema e ajustes de personagens na nova temporada.
+
+<FAQ items={[
+  {
+    question: "Quais são as mudanças de equilíbrio mais importantes da temporada 9 de Marvel Rivals?",
+    answer: "As atualizações mais importantes são a redução global na geração de energia Ultimate (para 55-60%), a introdução de Escudos Regenerativos para Vanguardas e a remoção de bônus fixos de Âncora de Team-Up em favor de bônus específicos de parceiros."
+  },
+  {
+    question: "Como funcionam os Escudos Regenerativos na Temporada 9?",
+    answer: "Os Escudos Regenerativos começam a se recuperar automaticamente após você evitar receber dano por 5 segundos. Uma vez ativado, o escudo restaura totalmente seus pontos carregáveis nos 5 segundos seguintes."
+  },
+  {
+    question: "Quais heróis mais se beneficiam das mudanças de Team-Up da Temporada 9?",
+    answer: "Doutor Estranho (pareado com Mulher Invisível) ganha um escudo massivo de 1000 de valor, Adam Warlock (pareado com Ultron) recebe um grande aumento de munição e Mantis (pareada com Senhor das Estrelas) recebe uma saída de cura significativamente mais forte."
+  },
+  {
+    question: "Há um novo herói sendo lançado com estas mudanças de equilíbrio?",
+    answer: "Sim, Jubileu lança junto com a Temporada 9 em 10 de julho de 2026 UTC, como uma heroína de suporte Estrategista altamente móvel com cura, movimento de flutuação e controle de grupo com repulsão."
+  }
+]} />
+
+</Section>

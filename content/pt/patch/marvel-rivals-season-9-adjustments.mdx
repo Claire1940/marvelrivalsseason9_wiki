@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ajustes da Temporada 9 de Marvel Rivals: Notas da Atualização e Meta",
+  description: "Descubra os principais ajustes da Temporada 9 de Marvel Rivals, incluindo Escudos Regenerativos, mudanças na energia Ultimate, atualizações de equilíbrio de heróis e novas estratégias de meta.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Season+9+Adjustments",
+  date: "2026-07-09",
+  author: "Equipe da Wiki da Temporada 9 de Marvel Rivals",
+  keywords: "Marvel Rivals, Temporada 9, ajustes, notas da atualização, meta, escudos regenerativos, Jubilee"
+}
+
+<Callout type="info" title="Principais Conclusões">
+- **Atualização Principal**: Os ajustes da Temporada 9 de Marvel Rivals introduzem revisões massivas no sistema, alterando o fluxo de combate, o uso de ultimates e o funcionamento da sustentação na linha de frente.
+- **Ultimates Mais Lentos**: As taxas globais de geração de energia ultimate foram reduzidas em todas as funções, tornando o posicionamento bruto e o gerenciamento de cooldowns muito mais críticos.
+- **Escudos Regenerativos**: Vários Vanguardas trocam vida base por uma nova mecânica de escudo regenerativo que recompensa o recuo tático.
+- **Recálculo de Team-Up**: Os bônus de atributos fixos dos âncoras de Team-Up foram removidos, substituídos por sinergias poderosas e específicas entre pares de heróis.
+- **Novas Adições ao Elenco**: Jubilee chega como uma Estrategista de lançamento, com The Hood provocado como uma adição posterior ligada à história da antiga Tebas.
+</Callout>
+
+<Section icon={Map} title="Ajustes e Roadmap da Temporada 9 de Marvel Rivals">
+
+Os altamente antecipados ajustes da Temporada 9 de Marvel Rivals chegaram oficialmente, inaugurando a era temática de \"O Mistério de Tebas\". Lançada em 10 de julho de 2026 UTC, esta atualização massiva foca na história do antigo Egito impulsionada pelo Apocalipse. Os jogadores podem esperar um novo mapa de comboio, um novo passe de batalha intitulado \"Mortes no Nilo\" e um rebalanceamento extensivo em todo o elenco de personagens.
+
+Para se preparar para a mudança no meta, você deve revisar como essas mudanças alteram as capacidades individuais dos heróis e as estratégias de construção de equipe. O trailer oficial de lançamento mostra o conflito de alto risco e oferece um vislumbre dos novos desafios que aguardam as equipes competitivas.
+
+**Destaques do Vídeo:**
+- **História de Tebas**: Explora as consequências da queda do Apocalipse e o conflito crescente no ambiente temático do Nilo.
+- **Chegada da Jubilee**: Destaca suas habilidades de suporte pirotécnico, voo aéreo e repulsão para controle de grupo.
+- **Teaser do The Hood**: Prévia do vilão sombrio e místico definido para expandir o elenco mais tarde na temporada.
+
+<YouTubeEmbed videoId="YusekrZKvwQ" title="Marvel Rivals Temporada 9: Trailer Oficial de O Mistério de Tebas" />
+
+A tabela a seguir descreve os detalhes essenciais do lançamento e os focos centrais da nova temporada:
+
+| Categoria da Atualização | Valor / Recurso | Foco Estratégico |
+| :--- | :--- | :--- |
+| **Tema da Temporada** | O Mistério de Tebas | Lore do Antigo Egito, conflito com Apocalipse |
+| **Data de Lançamento** | 10 de julho de 2026 UTC | Lançamento global no Steam, Epic, Xbox e PlayStation |
+| **Novo Herói Jogável** | Jubilee | Função de Estrategista focada em cura com fogos de artifício e repulsão |
+| **Novo Mapa de Batalha** | Mapa de Comboio de Tebas | Escolta de carga em vários estágios com pontos de afunilamento destrutíveis |
+| **Sistema Sazonal** | Motor de Colheita de Fé | Estrutura de progressão para o Passe de Batalha Mortes no Nilo |
+
+<Callout type="info" title="Insights Oficiais dos Desenvolvedores">
+De acordo com o [diário oficial dos desenvolvedores da Temporada 9](https://www.marvelrivals.com/devdiaries/20260708/40954_1306827.html), a equipe de desenvolvimento projetou esta temporada para enfatizar a coordenação deliberada da equipe em vez do spam de habilidades ultimate, criando um ambiente 6v6 mais tático.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mudanças de Equilíbrio Globais e Escudos Regenerativos">
+
+O ciclo principal de jogabilidade sofre uma mudança dramática na Temporada 9. Os desenvolvedores focaram em duas áreas principais para aumentar a profundidade tática: desacelerar a taxa na qual as equipes adquirem habilidades Ultimate decisivas e introduzir um novo tipo de vida chamado Escudos Regenerativos.
+
+A geração de energia Ultimate ao causar dano e curar aliados foi reduzida globalmente. Este ajuste evita que as equipes dominem as partidas puramente através de ciclos consecutivos de ultimates. A tabela abaixo detalha os ajustes específicos de conversão de energia:
+
+| Função / Fonte | Antiga Taxa de Conversão de Ultimate | Nova Taxa de Conversão de Ultimate | Impacto Estratégico |
+| :--- | :--- | :--- | :--- |
+| **Dano de Vanguarda** | 70% | **55%** | Carga de ultimate da linha de frente mais lenta, menos janelas de interrupção |
+| **Dano de Duelista** | 70% | **55%** | Jogadores de DPS devem confiar na precisão da arma base e habilidades |
+| **Dano de Estrategista** | 75% | **55%** | Limita a contribuição de poke do suporte para a geração de ultimate |
+| **Cura de Estrategista** | 75% | **60%** | A produção bruta de cura carrega as ultimates de suporte mais lentamente |
+
+Além dos ajustes de ultimate, vários heróis da linha de frente agora utilizam Escudos Regenerativos. Esta mecânica substitui uma parte de sua vida base por pontos de escudo carregáveis. Se um herói evitar sofrer dano por 5 segundos, esses escudos começam a se recuperar automaticamente, restaurando totalmente a reserva de escudo nos 5 segundos subsequentes.
+
+| Vanguarda Afetado | Vida Base Antiga | Vida Base Nova | Valor do Escudo Regenerativo |
+| :--- | :--- | :--- | :--- |
+| **Capitão América** | 600 | 300 | **300** |
+| **Hulk** | 650 | 400 | **300** |
+
+<Callout type="warning" title="Aviso de Sustentação">
+Devido ao novo sistema de Escudo Regenerativo, os linha de frente não podem mais ficar em pontos de afunilamento indefinidamente esperando que os suportes os curem através de dano constante. Você deve utilizar cobertura e recuar temporariamente para deixar seus escudos recarregarem naturalmente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ajustes de Equilíbrio de Heróis e Mudanças no Meta">
+
+O [post de equilíbrio da Versão 20260710](https://www.marvelrivals.com/balancepost/20260706/41667_1306647.html) traz buffs e nerfs direcionados a heróis individuais. Esses ajustes visam equilibrar o elenco em torno da economia de ultimate mais lenta e das novas mecânicas de escudo, colocando vários personagens subutilizados sob os holofotes.
+
+### Ajustes de Vanguarda e Duelista
+A durabilidade da linha de frente aumentou para Vanguardas sem escudo. Doutor Estranho recebe um aumento em sua vida base (agora 650) e um buff massivo em seu Escudo do Serafim, que aumenta de 700 para 850 de valor. Dinossauro Demônio também vê sua vida base subir para 850, tornando-o um alvo incrivelmente resistente.
+
+No lado dos Duelistas, heróis de poke preciso recebem buffs bem-vindos. O dano base do Espinho da Espada Noturna de Hela aumenta de 70 para 80, e sua habilidade Revoada Astral agora permite voo direcional livre. Gavião Arqueiro se beneficia de flechas parcialmente carregadas mais rápidas e fortes, enquanto Tempestade ganha dano em Lâmina de Vento. Por outro lado, heróis com alto burst base como Ciclope, Homem de Ferro e O Justiceiro recebem reduções de dano para compensar suas fortes sinergias de Team-Up.
+
+### Melhorias de Estrategista
+Os suportes recebem ajustes significativos para compensar a geração de ultimate mais lenta. Manto e Adaga ganham buffs de cura direta, cura de campo e cura de ultimate em geral. Luna Snow perde o bônus de dano fixo de sua habilidade Ídolo Número Um, mas vê seu poder de Aumento de Cura dobrar de 10% para 20%. Rocket Raccoon e Ultron também recebem buffs moderados em sua produção de cura em área.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Sustentação e Escudo">
+    - **Doutor Estranho**: Barreiras de escudo mais fortes e maior reserva de vida base.
+    - **Manto e Adaga**: Produção de cura bruta e sustentação de área inigualáveis.
+    - **Hela**: Poke de alto dano e mobilidade de voo aprimorada.
+  </Card>
+  <Card title="Tier A: Dependente de Sinergia">
+    - **Capitão América**: Forte ao utilizar cobertura para regeneração de escudo.
+    - **Luna Snow**: Especialista em cura pura, mas carece de bônus de dano ofensivo.
+    - **Dinossauro Demônio**: Excepcionalmente tanque, mas requer suporte de curto alcance.
+  </Card>
+  <Card title="Tier B: Limitado por Cooldown">
+    - **Ciclope**: Cooldowns mais altos e dano de feixe bruto reduzido.
+    - **O Justiceiro**: Requer parceiros específicos de Team-Up para desbloquear o DPS total.
+    - **Rocket Raccoon**: Utilidade forte, mas os custos de ultimate estão visivelmente mais altos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Meta">
+Com a redução na frequência de ultimates, as partidas são vencidas durante escaramuças neutras. Priorize heróis com dano consistente alto ou cooldowns de utilidade fortes em vez de confiar em uma única ultimate para limpar a equipe inimiga.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades de Team-Up e Atualizações de Sinergia">
+
+Um dos ajustes mais impactantes da Temporada 9 de Marvel Rivals é a remoção completa dos bônus fixos de Âncora de Team-Up. Anteriormente, o simples fato de ter um herói âncora em sua equipe concedia bônus passivos de vida, dano ou cura. Agora, o sistema foca estritamente em sinergias específicas e ativas entre pares de heróis.
+
+Essa mudança força os jogadores a pensar criticamente sobre a composição da equipe. Escolher um herói puramente por seus números solo não é mais a estratégia padrão; você deve se coordenar com sua equipe para desbloquear parcerias ativas poderosas.
+
+| Par de Heróis | Nome da Sinergia | Benefício Ativo |
+| :--- | :--- | :--- |
+| **Doutor Estranho + Mulher Invisível** | Escudo Guardião | Escudo do Serafim ganha +150 de valor (1000 de escudo total) |
+| **Elsa Bloodstone + Dinossauro Demônio** | Poder de Fogo Primal | Dano dos projéteis do Blaster de Cano Duplo aumenta de 4,5 para 5 |
+| **O Justiceiro + Demolidor** | Mão da Justiça | Restaura o dano da arma base do Justiceiro aos valores anteriores ao nerf |
+| **Psylocke + Emma Frost** | Foco de Diamante | Shurikens de Asa concedem +15 de vida bônus por acerto (antes 10) |
+| **Adam Warlock + Ultron** | Núcleo Quântico | Capacidade de munição de Magia Quântica aumenta de 15 para 25 |
+| **Mantis + Senhor das Estrelas** | Fogo Florescente | Flor de Cura melhora para 15 + 3% da vida máxima do alvo por segundo |
+
+<Callout type="tip" title="Estratégia de Sinergia">
+Sempre verifique o elenco da sua equipe antes de confirmar seu personagem. Se seu colega de equipe escolher o Dinossauro Demônio, escolher Elsa Bloodstone aumenta imediatamente seu potencial de dano de curto alcance, transformando uma composição de mergulho padrão em uma ameaça letal na linha de frente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Dominar a Temporada 9">
+
+Adaptar-se a esses extensos ajustes requer uma abordagem estruturada. Siga esta progressão passo a passo para otimizar sua jogabilidade e subir na classificação ranqueada na nova temporada.
+
+<Steps>
+  <Step num="1" title="Atualize e Resgate Recompensas">
+    Baixe a atualização mais recente via Steam ou na loja do seu console. Antes de entrar na fila, vá para a [página da campanha Marvel Rivals Infinity](https://www.marvel.com/redeem-rivalsinfinity) para resgatar códigos cosméticos ativos e vincule sua conta Twitch para resgatar Twitch Drops ativos.
+  </Step>
+  <Step num="2" title="Domine o Ritmo do Escudo Regenerativo">
+    Leve o Capitão América ou o Hulk para os campos de treinamento. Pratique o engajamento por 4 segundos, recebendo dano, e depois use a cobertura natural do mapa ou barreiras para recuar. Acostume-se com o atraso de 5 segundos antes que seu escudo comece a regenerar.
+  </Step>
+  <Step num="3" title="Formule Composições Focadas em Sinergia">
+    Na tela de seleção de heróis, coordene-se com seus parceiros de fila. Evite escolher Duelistas de estilo solo se sua equipe não tiver os parceiros de Team-Up adequados. Certifique-se de que seus suportes tenham sinergias diretas com seus Vanguardas, como emparelhar Adam Warlock com Ultron.
+  </Step>
+  <Step num="4" title="Ajuste o Tempo de Cooldown e Ultimate">
+    Como as habilidades ultimate carregam significativamente mais devagar, não as desperdice em lutas perdidas. Guarde suas ultimates para investidas coordenadas ou defesas de objetivo. Foque em utilizar rotações de habilidades padrão para garantir eliminações durante o jogo neutro.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lembrete para Iniciantes">
+Se você é novo no jogo, acesse a [Página da Loja Steam](https://store.steampowered.com/app/2767030/Marvel_Rivals/) para revisar os requisitos do sistema e baixar o cliente. Comece dominando um herói em cada uma das três funções (Vanguarda, Duelista, Estrategista) antes de mergulhar em partidas ranqueadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Objetivos da Temporada 9">
+
+Com o lançamento de \"O Mistério de Tebas\", os jogadores têm um novo conjunto de marcos sazonais para perseguir. Esteja você visando completar o Passe de Batalha Mortes no Nilo ou subir para os rankings competitivos mais altos, manter-se organizado é a chave para maximizar suas recompensas.
+
+O novo Passe de Batalha apresenta 10 trajes de personagens exclusivos com o tema dos mistérios do antigo Egito e a história do Apocalipse. A compra do Passe de Batalha Premium desbloqueia o acesso permanentemente, permitindo que você progrida e resgate recompensas no seu próprio ritmo ao longo do ano.
+
+<Checklist
+  id="season-9-milestones"
+  title="Objetivos Essenciais da Temporada 9:"
+  items={[
+    "Complete todos os desafios semanais para desbloquear os trajes de Mortes no Nilo",
+    "Domine pelo menos dois pares de heróis para utilizar as novas sinergias de Team-Up",
+    "Aprenda as rotas de comboio ideais e pontos de afunilamento no novo mapa de Tebas",
+    "Adapte seu posicionamento para maximizar o atraso de 5 segundos do Escudo Regenerativo",
+    "Alcance seu ranking competitivo alvo sob a nova economia de ultimate mais lenta"
+  ]}
+/>
+
+<Callout type="success" title="Dica de Recompensa">
+Lembre-se de que os heróis jogáveis são sempre gratuitos. O Passe de Batalha é estritamente cosmético, para que você possa aproveitar todo o escopo dos ajustes de jogabilidade e matchmaking competitivo sem gastar dinheiro real.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como os ajustes da Temporada 9 de Marvel Rivals afetam o meta ranqueado?",
+    answer: "Os ajustes afastam o meta do spam de habilidades ultimate e o direcionam para o jogo neutro tático. Vanguardas com Escudos Regenerativos devem usar cobertura de forma eficaz, enquanto Duelistas e Estrategistas devem confiar fortemente na mira precisa e em sinergias de Team-Up coordenadas para garantir vitórias."
+  },
+  {
+    question: "Qual é a melhor maneira de usar os novos Escudos Regenerativos?",
+    answer: "Para maximizar os Escudos Regenerativos, evite ficar na linha de visão do inimigo quando estiver com pouca vida. Recue para trás de cobertura natural ou barreiras aliadas por 5 segundos. Assim que a regeneração começar, seu escudo se recuperará totalmente em mais 5 segundos, permitindo que você retorne à luta sem esgotar os cooldowns de cura do seu suporte."
+  },
+  {
+    question: "Por que os bônus fixos de Âncora de Team-Up foram removidos?",
+    answer: "Os desenvolvedores removeram os bônus fixos de âncora para encorajar composições de equipe mais diversas e deliberadas. Em vez de receber bônus passivos de atributos apenas por ter um herói específico na equipe, os jogadores agora devem escolher e jogar ativamente com pares de heróis sinérgicos para desbloquear vantagens de jogabilidade únicas."
+  },
+  {
+    question: "Como faço para desbloquear a Jubilee e o novo mapa de Tebas?",
+    answer: "Jubilee é desbloqueada automaticamente para todos os jogadores no início da Temporada 9 em 10 de julho de 2026 UTC, já que todos os personagens de jogabilidade são gratuitos. O novo Mapa de Comboio de Tebas é adicionado diretamente à lista de mapas do matchmaking e está disponível nos modos de jogo casual e ranqueado."
+  }
+]} />
+
+<Callout type="warning" title="Nota Final">
+Os ajustes de equilíbrio estão sujeitos a pequenas correções (hotfixes) conforme a temporada competitiva progride. Fique de olho nos canais oficiais e wikis da comunidade para atualizações em tempo real de números e interações mecânicas.
+</Callout>
+
+</Section>

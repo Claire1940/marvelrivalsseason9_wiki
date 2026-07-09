@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Patch da Temporada 9 de Marvel Rivals: Notas Completas e Mudanças de Equilíbrio",
+  description: "Explore as notas do enorme patch da Temporada 9 de Marvel Rivals. Descubra a nova mecânica de Escudos Regenerativos, nerfs no carregamento de supremas e mudanças no equilíbrio dos heróis.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+9+Patch+Notes",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Marvel Rivals Temporada 9",
+  keywords: "marvel rivals, temporada 9, patch notes, equilíbrio de heróis, escudos regenerativos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Atualização Principal**: O **patch da Temporada 9 de Marvel Rivals** introduz uma reformulação completa do sistema de Sinergia (Team-Up) e do equilíbrio dos heróis.
+- **Nova Mecânica**: Heróis de dive com alta mobilidade agora utilizam **Escudos Regenerativos** que se recuperam após 5 segundos sem sofrer dano.
+- **Nerfs nas Supremas**: A geração global de energia da habilidade suprema foi reduzida em todas as três funções para desacelerar o ritmo do combate.
+- **Remoção das Âncoras de Sinergia**: As Âncoras de Sinergia que aumentavam atributos foram removidas, substituídas por ajustes diretos nos atributos base.
+- **Mudança no Meta**: Fortalecimentos massivos nas ferramentas de sobrevivência de Vanguardas e Duelistas equilibram a perda de vida bruta das âncoras.
+</Callout>
+
+<Section icon={Map} title="Patch da Temporada 9 de Marvel Rivals: Reformulações Globais do Sistema">
+
+O **patch da Temporada 9 de Marvel Rivals** reformula completamente o cenário do shooter heroico da NetEase. A equipe de equilíbrio focou na introdução de mecânicas estruturais que substituem os antigos e estáticos bônus de atributos do sistema de Sinergia. Em vez de depender de bônus passivos de âncoras, o elenco agora conta com um tipo de vida de escudo altamente reativo, além de taxas ajustadas de carregamento de supremas para garantir que o combate pareça dinâmico, porém deliberado.
+
+**Destaques do Vídeo:**
+- **Nerf no Carregamento de Suprema**: Uma análise aprofundada dos cálculos por trás da redução global na geração de supremas.
+- **Escudos Regenerativos**: Como funciona a nova mecânica de vida verde para heróis de dive como Hulk, Venom e Capitão América.
+- **Mudanças em Vanguardas e Duelistas**: Ajustes extensivos de atributos após a remoção do sistema de Âncoras de Sinergia.
+
+<YouTubeEmbed videoId="ZQ6-QrDxoo4" title="Marvel Rivals Season 9 Patch Notes Are HERE!!!" />
+
+### Mudanças Globais na Geração de Energia da Suprema
+Para alinhar-se com os grandes ajustes de jogabilidade introduzidos na Temporada 9, a eficiência da geração de energia das habilidades supremas foi reduzida de forma geral. Isso garante que as habilidades supremas sejam conquistadas por meio de jogadas ativas e de alto impacto, em vez de impasses passivos.
+
+| Grupo de Função | Antiga Taxa de Conversão de Energia | Nova Taxa de Conversão de Energia | Avaliação de Impacto |
+|---|---|---|---|
+| **Vanguardas e Duelistas (Dano para Suprema)** | 70% | **55%** | Nerf Alto |
+| **Estrategistas (Cura para Suprema)** | 75% | **60%** | Nerf Moderado |
+| **Estrategistas (Dano para Suprema)** | 75% | **55%** | Nerf Alto |
+
+### A Nova Mecânica de Escudos Regenerativos
+A Temporada 9 introduz oficialmente um tipo de vida totalmente novo: **Escudos Regenerativos**. Essa mecânica funciona de forma idêntica à vida base para cálculos de cura e dano baseados em porcentagem, mas possui uma poderosa característica de recuperação passiva.
+
+<Callout type="success" title="Regras de Recuperação de Escudo">
+Se você conseguir evitar sofrer dano por **5 segundos**, seus Escudos Regenerativos começarão a se regenerar automaticamente, recuperando totalmente todos os pontos de escudo recarregáveis ao longo dos **5 segundos** seguintes. Por exemplo, uma barra de 300 de escudo se recupera a 60 pontos por segundo, enquanto uma barra de 150 de escudo se recupera a 30 pontos por segundo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ajustes de Equilíbrio da Classe Vanguarda">
+
+Os Vanguardas estão recebendo grandes reformulações estruturais no **patch da Temporada 9 de Marvel Rivals**. Com a remoção das Âncoras de Sinergia que concediam de 100 a 150 de vida bônus, vários tanques tiveram sua vida base reduzida e suplementada com Escudos Regenerativos. Isso torna os tanques de dive altamente evasivos, mas mais fáceis de serem eliminados rapidamente se forem pegos fora de posição.
+
+<CardGrid cols={3}>
+  <Card title="Hulk Fortalecido">
+    - **Golpe Pesado**: Dano aumentado de 40 para **45**.
+    - **Divisão de Vida**: Vida base reduzida para 400; ganhou **300 de Escudo Regenerativo**.
+    - **Suprema**: Custo de energia de Esmagar Hulk aumentado para 3700.
+  </Card>
+  <Card title="Thor em Ascensão">
+    - **Arremesso de Martelo**: Dano aumentado para **50** (arremesso) e **25** (retorno).
+    - **Divisão de Vida**: Vida base reduzida para 300; ganhou **300 de Escudo Regenerativo**.
+    - **Vida Bônus**: Bônus por acerto aumentado de 50 para **75**.
+  </Card>
+  <Card title="Venom Controlado">
+    - **Vida Base**: Reduzida de 675 para **500**.
+    - **Adição de Escudo**: Ganhou **250 de Escudo Regenerativo**.
+    - **Vida Líquida**: Pool total reduzido de 825 para **750**.
+  </Card>
+</CardGrid>
+
+### Mudanças Detalhadas de Atributos dos Vanguardas
+A remoção das Âncoras de Sinergia significa que alguns Vanguardas perderam vida bruta, enquanto outros receberam fortalecimentos diretos de compensação para continuarem viáveis na linha de frente.
+
+| Herói | Mudança na Vida Base | Escudo Adicionado | Ajustes Principais de Habilidade |
+|---|---|---|---|
+| **Angela** | 450 para **350** | **200 Regenerativo** | Perdeu o bônus de 100 HP da Âncora de Sinergia |
+| **Capitão América** | 600 to **300** | **300 Regenerativo** | Perdeu o bônus de 100 HP da Âncora de Sinergia |
+| **Deadpool (Vanguarda)** | 450 para **500** | Nenhum | Dano das Desert Eagles aumentado para **36** / **40** |
+| **Dinossauro Demônio** | 750 para **850** | Nenhum | Redução de dano de acerto crítico aumentada para **60%** |
+| **Doutor Estranho** | 575 para **650** | Nenhum | Valor do Escudo de Serafim aumentado para **850** |
+| **Groot** | 700 para **850** | Nenhum | Vida base aumentada para compensar a perda da âncora |
+| **Vampira** | 650 para **350** | **225 Regenerativo** | Redução de dano da Postura Defensiva reduzida para **55%** |
+| **O Coisa** | Base | Nenhum | Vida bônus do Soco de Pedra aumentada para **150** |
+
+<Callout type="warning" title="Vampira e Capitão América Enfraquecidos">
+Tanto a Vampira quanto o Capitão América sofrem perdas líquidas de vida neste patch. A Vampira perde 75 de vida total junto com uma redução de 5% na mitigação de dano de sua Postura Defensiva, enquanto o Capitão América perde 100 de vida total, tornando-os muito mais dependentes de posicionamento defensivo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ajustes de Equilíbrio da Classe Duelista">
+
+Os Duelistas estão trocando vida bruta por capacidades de bater e correr em alta velocidade. A introdução dos Escudos Regenerativos permite que os flanqueadores ataquem a retaguarda, escapem e regenerem suas barras de vida sem depender constantemente de seus Estrategistas.
+
+### Conversões de Atributos e Ajustes de Habilidades dos Duelistas
+
+| Herói | Vida Base | Escudo Regenerativo | Ajustes Principais de Habilidade |
+|---|---|---|---|
+| **Gata Negra** | **150** (era 275) | **125** | Limite de Sorte aumentado para **1200** |
+| **Pantera Negra** | **150** (era 275) | **125** | Perdeu o bônus de 5% de dano da Âncora de Sinergia |
+| **Ciclope** | **250** | Nenhum | Dano da Rajada Óptica reduzido para **21**; tempos de recarga aumentados |
+| **Demolidor** | **150** (era 300) | **150** | Perdeu o bônus de 5% de dano da Âncora de Sinergia |
+| **Elsa Bloodstone** | Base | Nenhum | Munição aumentada para **12**; tempo de recarga do Avanço Hélice aumentado |
+| **Gavião Arqueiro** | Base | Nenhum | Velocidade da Flecha Perfurante aumentada para **130** - **195 m/s** |
+| **Hela** | Base | Nenhum | Dano da Espada da Noite aumentado para **80**; pode voar livremente na forma de Corvo |
+| **Magia** | **150** (era 250) | **125** | Vida líquida aumentada em 25 pontos |
+| **Psylocke** | **150** (era 250) | **125** | Dano da besta aumentado para **13** |
+
+<Callout type="tip" title="Hela Voando Alto">
+Embora Hela tenha perdido seu bônus de 15% de dano da Âncora de Sinergia, ela agora pode voar livremente em qualquer direção enquanto estiver na forma de Corvo. O momento é mantido, permitindo que jogadores habilidosos façam bunny-hop e mantenham alta mobilidade.
+</Callout>
+
+### Ajustes em Ciclope e Homem de Ferro
+A NetEase mirou pesado nos heróis de dano que estavam com desempenho acima da média. O Ciclope teve seu dano de acerto único e força de ricochete reduzidos, enquanto o tempo de recarga de sua mobilidade foi aumentado. O dano em área do disparo repulsor do Homem de Ferro e o dano do Unibeam também foram levemente reduzidos para equilibrar suas novas e poderosas sinergias.
+
+</Section>
+
+<Section icon={Target} title="Ajustes de Equilíbrio da Classe Estrategista">
+
+O **patch da Temporada 9 de Marvel Rivals** afasta a função de Estrategista do foco em causar dano bruto, concentrando-se em utilidade pura e cura localizada. Vários suportes tiveram seus bônus de dano de Sinergia removidos em favor de melhorias diretas na cura.
+
+<Steps>
+  <Step num="1" title="Análise da Mudança de ÍDOLO da Luna Snow">
+    Luna Snow perde seu bônus de 10% de autodano do Ídolo Número Um. Em troca, seu bônus de autocura é duplicado para **20%**, e a cura da aura passiva do aliado vinculado é aumentada para **40%**.
+  </Step>
+  <Step num="2" title="Avaliação do Nerf de Utilidade do Rocket Raccoon">
+    O custo de energia da suprema C-I-A do Rocket foi aumentado para 4300. Além disso, foi adicionada uma redução de eficácia baseada na distância, fazendo com que o bônus de dano e a vida bônus decaiam a partir de 8 metros, caindo para 60% aos 20 metros.
+  </Step>
+  <Step num="3" title="Revisão da Compensação de Manto e Adaga">
+    Para compensar a perda do bônus de 15% de cura da Âncora de Sinergia, a cura base da Força de Luz foi fortalecida: a cura de acerto direto subiu para **15**, e a cura do feitiço persistente subiu para **25**.
+  </Step>
+</Steps>
+
+### Ajustes de Cura e Vida dos Estrategistas
+
+| Estrategista | Mudança na Vida | Ajustes de Habilidade de Cura |
+|---|---|---|---|
+| **Adam Warlock** | 250 para **275** | Dano do Aglomerado Cósmico aumentado para **35** |
+| **Gambit** | Base | Cura das Cartas Cinéticas aumentada para **30** |
+| **Mulher Invisível** | Base | Cura do orbe de saída aumentada para **50**; cura de retorno para **40** |
+| **Mantis** | Base | Flor de cura aprimorada quando emparelhada com o Senhor das Estrelas |
+| **Ultron** | Base | Cura do drone da Barreira Imperativa aumentada para **35/s** |
+| **Fox Branca** | Base | Tempo de recarga do Santuário Espiritual aumentado para **15s**; vida da suprema subiu para **1200** |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Tarefas e Objetivos da Temporada 9">
+
+Para aproveitar ao máximo os grandes ajustes de equilíbrio e dominar os novos sistemas, os jogadores devem focar em se adaptar às mecânicas de escudo e às composições de equipe.
+
+<Checklist
+  id="season-9-goals"
+  title="Marcos Essenciais da Temporada 9:"
+  items={[
+    "Domine a regra dos 5 segundos para Escudos Regenerativos em heróis de dive",
+    "Adapte-se ao ritmo mais lento das supremas em todas as três funções",
+    "Teste as novas opções de Sinergia dupla na sala de renascimento",
+    "Pratique as novas mecânicas de voo livre e momento do Corvo da Hela",
+    "Monte composições de equipe em torno do Doutor Estranho e do Thor fortalecidos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maior mudança no patch da Temporada 9 de Marvel Rivals?",
+    answer: "As maiores mudanças são a introdução da mecânica de Escudos Regenerativos para heróis móveis, a redução global na geração de energia das supremas e a remoção completa das Âncoras de Sinergia que aumentavam atributos."
+  },
+  {
+    question: "Como funcionam os Escudos Regenerativos?",
+    answer: "Os Escudos Regenerativos agem como a vida base, mas se regeneram automaticamente até o limite máximo ao longo de 5 segundos se você conseguir evitar sofrer dano por 5 segundos consecutivos."
+  },
+  {
+    question: "Por que meu herói favorito perdeu vida na Temporada 9?",
+    answer: "A NetEase removeu o sistema passivo de Âncoras de Sinergia que anteriormente concedia vida bônus. Muitos heróis tiveram seus atributos base ajustados ou receberam Escudos Regenerativos para compensar."
+  },
+  {
+    question: "O Rocket Raccoon está mais fraco neste patch?",
+    answer: "Sim. Embora sua cura base tenha recebido pequenos ajustes, sua habilidade suprema custa mais energia e agora sofre com redução de eficácia baseada na distância, diminuindo sua utilidade em alcances mais longos."
+  }
+]} />
+
+</Section>

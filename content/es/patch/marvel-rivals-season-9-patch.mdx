@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Parche de la Temporada 9 de Marvel Rivals: Notas Completas y Cambios de Equilibrio",
+  description: "Explora las extensas notas del parche de la Temporada 9 de Marvel Rivals. Descubre la nueva mecánica de Escudos Regenerativos, los ajustes a las definitivas y los cambios de equilibrio de los héroes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+9+Patch+Notes",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Marvel Rivals Temporada 9",
+  keywords: "marvel rivals, parche, temporada 9, notas del parche, equilibrio de héroes, escudos regenerativos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Actualización Principal**: El **parche de la Temporada 9 de Marvel Rivals** introduce un rediseño completo del sistema de Team-Up y del equilibrio de los héroes.
+- **Nueva Mecánica**: Los héroes de "dive" (buceo) con alta movilidad ahora utilizan **Escudos Regenerativos** que se recuperan tras 5 segundos sin recibir daño.
+- **Nerfeos a Definitivas**: La generación global de energía para la habilidad definitiva se ha reducido en los tres roles para ralentizar el ritmo del combate.
+- **Eliminación de Anclas de Team-Up**: Se han eliminado las Anclas de Team-Up que potenciaban estadísticas, reemplazándolas por ajustes directos en las estadísticas base.
+- **Cambio en el Meta**: Mejoras masivas en las herramientas de supervivencia de Vanguardias y Duelistas compensan la pérdida de salud bruta de las anclas.
+</Callout>
+
+<Section icon={Map} title="Parche de la Temporada 9 de Marvel Rivals: Revisión del Sistema Global">
+
+El **parche de la Temporada 9 de Marvel Rivals** redefine por completo el panorama del shooter heroico de NetEase. El equipo de equilibrio se ha centrado en introducir mecánicas estructurales que reemplazan las antiguas bonificaciones de estadísticas estáticas del sistema Team-Up. En lugar de depender de bufos pasivos de anclaje, la plantilla ahora cuenta con un tipo de salud de escudo altamente reactivo, junto con tasas de carga de definitivas ajustadas para garantizar que el combate se sienta dinámico pero deliberado.
+
+**Puntos destacados del video:**
+- **Nerfeo a la Carga de Definitiva**: Un análisis profundo de las matemáticas tras la reducción global de generación de definitivas.
+- **Escudos Regenerativos**: Cómo funciona la nueva mecánica de salud verde para héroes de dive como Hulk, Venom y el Capitán América.
+- **Cambios en Vanguardias y Duelistas**: Ajustes extensos de estadísticas tras la eliminación del sistema de Anclas de Team-Up.
+
+<YouTubeEmbed videoId="ZQ6-QrDxoo4" title="¡Las notas del parche de la Temporada 9 de Marvel Rivals ya están AQUÍ!" />
+
+### Cambios Globales en la Generación de Energía de Habilidades Definitivas
+Para alinearse con los masivos ajustes de jugabilidad introducidos en la Temporada 9, se ha reducido la eficiencia de la generación de energía de las habilidades definitivas en todos los ámbitos. Esto garantiza que las definitivas se ganen mediante jugadas activas y de alto impacto en lugar de estancamientos pasivos.
+
+| Grupo de Rol | Antigua Tasa de Conversión | Nueva Tasa de Conversión | Calificación de Impacto |
+|---|---|---|---|
+| **Vanguardias y Duelistas (Daño a Definitiva)** | 70% | **55%** | Nerfeo Alto |
+| **Estrategas (Curación a Definitiva)** | 75% | **60%** | Nerfeo Moderado |
+| **Estrategas (Daño a Definitiva)** | 75% | **55%** | Nerfeo Alto |
+
+### La Nueva Mecánica de Escudos Regenerativos
+La Temporada 9 introduce oficialmente un nuevo tipo de salud: **Escudos Regenerativos**. Esta mecánica funciona de forma idéntica a la salud base para los cálculos de curación y daño basados en porcentajes, pero posee un poderoso rasgo de recuperación pasiva.
+
+<Callout type="success" title="Reglas de Recuperación de Escudo">
+Si logras evitar recibir daño durante **5 segundos**, tus Escudos Regenerativos comenzarán a generarse automáticamente, recuperando todos los puntos de escudo cargables durante los siguientes **5 segundos**. Por ejemplo, un grupo de 300 escudos se recupera a 60 puntos por segundo, mientras que uno de 150 se recupera a 30 puntos por segundo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ajustes de Equilibrio de la Clase Vanguardia">
+
+Las Vanguardias están recibiendo rediseños estructurales masivos en el **parche de la Temporada 9 de Marvel Rivals**. Con la eliminación de las Anclas de Team-Up de 100 a 150 de salud adicional, a varios tanques se les ha reducido la salud base y se les ha complementado con Escudos Regenerativos. Esto hace que los tanques de dive sean muy esquivos pero más fáciles de eliminar si se les pilla fuera de posición.
+
+<CardGrid cols={3}>
+  <Card title="Hulk Potenciado">
+    - **Golpe Pesado**: Daño aumentado de 40 a **45**.
+    - **División de Salud**: Salud base reducida a 400; obtuvo **300 de Escudo Regenerativo**.
+    - **Definitiva**: El coste de energía de Hulk Aplasta aumentó a 3700.
+  </Card>
+  <Card title="El Ascenso de Thor">
+    - **Lanzamiento de Martillo**: Daño aumentado a **50** (ida) y **25** (vuelta).
+    - **División de Salud**: Salud base reducida a 300; obtuvo **300 de Escudo Regenerativo**.
+    - **Salud Adicional**: Bonificación por golpe aumentada de 50 a **75**.
+  </Card>
+  <Card title="Venom Ajustado">
+    - **Salud Base**: Reducida de 675 a **500**.
+    - **Adición de Escudo**: Obtuvo **250 de Escudo Regenerativo**.
+    - **Salud Neta**: El total se redujo de 825 a **750**.
+  </Card>
+</CardGrid>
+
+### Cambios Detallados en las Estadísticas de Vanguardia
+La eliminación de las Anclas de Team-Up significa que algunas Vanguardias han perdido salud bruta, mientras que otras recibieron mejoras de compensación directa para seguir siendo unidades de primera línea viables.
+
+| Héroe | Cambio en Salud Base | Escudo Añadido | Ajustes de Habilidades Clave |
+|---|---|---|---|
+| **Angela** | 450 a **350** | **200 Regenerativo** | Perdió 100 HP de bonificación de Ancla de Team-Up |
+| **Capitán América** | 600 a **300** | **300 Regenerativo** | Perdió 100 HP de bonificación de Ancla de Team-Up |
+| **Deadpool (Vanguardia)** | 450 a **500** | Ninguno | Daño de Desert Eagles aumentado a **36** / **40** |
+| **Devil Dinosaur** | 750 a **850** | Ninguno | Reducción de daño por golpe crítico aumentada al **60%** |
+| **Doctor Strange** | 575 a **650** | Ninguno | Valor del Escudo de Serafín aumentado a **850** |
+| **Groot** | 700 a **850** | Ninguno | Salud base aumentada para compensar la pérdida del ancla |
+| **Rogue** | 650 a **350** | **225 Regenerativo** | Mitigación de daño de Postura Defensiva reducida al **55%** |
+| **The Thing** | Base | Ninguno | Salud adicional de Stone Haymaker aumentada a **150** |
+
+<Callout type="warning" title="Rogue y Cap Nerfeados">
+Tanto Rogue como el Capitán América sufren pérdidas de salud neta en este parche. Rogue pierde 75 de salud total junto con una reducción del 5% en su mitigación de daño de Postura Defensiva, mientras que el Cap pierde 100 de salud total, lo que los hace mucho más dependientes del posicionamiento defensivo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ajustes de Equilibrio de la Clase Duelista">
+
+Los Duelistas están cambiando salud bruta por capacidades de ataque y huida a alta velocidad. La introducción de los Escudos Regenerativos permite a los flanqueadores atacar la retaguardia, escapar y regenerar sus reservas de salud sin depender constantemente de sus Estrategas.
+
+### Conversiones de Estadísticas y Ajustes de Habilidades de Duelista
+
+| Héroe | Salud Base | Escudo Regenerativo | Ajustes de Habilidades Clave |
+|---|---|---|---|
+| **Black Cat** | **150** (antes 275) | **125** | Límite de Fortuna aumentado a **1200** |
+| **Black Panther** | **150** (antes 275) | **125** | Perdió 5% de bonificación de daño de Ancla de Team-Up |
+| **Cyclops** | **250** | Ninguno | Daño de Explosión Óptica reducido a **21**; tiempos de reutilización aumentados |
+| **Daredevil** | **150** (antes 300) | **150** | Perdió 5% de bonificación de daño de Ancla de Team-Up |
+| **Elsa Bloodstone** | Base | Ninguno | Munición aumentada a **12**; tiempo de reutilización de Helix Advanced aumentado |
+| **Hawkeye** | Base | Ninguno | Velocidad de Flecha Perforante aumentada a **130** - **195 m/s** |
+| **Hela** | Base | Ninguno | Daño de Espada Nocturna aumentado a **80**; puede volar libremente en forma de Cuervo |
+| **Magic** | **150** (antes 250) | **125** | Salud neta aumentada en 25 puntos |
+| **Psylocke** | **150** (antes 250) | **125** | Daño de Ballesta aumentado a **13** |
+
+<Callout type="tip" title="Hela Vuela Alto">
+Aunque Hela perdió su bonificación de daño del 15% de Ancla de Team-Up, ahora puede volar libremente en cualquier dirección mientras está en forma de Cuervo. El impulso se mantiene, lo que permite a los jugadores expertos realizar "bunny-hop" y mantener una alta movilidad.
+</Callout>
+
+### Ajustes de Cyclops e Iron Man
+NetEase ha apuntado fuertemente a los héroes de DPS que estaban rindiendo por encima de la media. Cyclops ha visto reducido su daño de un solo impacto y su fuerza de rebote, mientras que su tiempo de reutilización de movilidad se ha alargado. El daño de área de la ráfaga repulsora de Iron Man y el daño del Uni-Rayo también se han reducido ligeramente para equilibrar sus nuevas y poderosas sinergias de Team-Up.
+
+</Section>
+
+<Section icon={Target} title="Ajustes de Equilibrio de la Clase Estratega">
+
+El **parche de la Temporada 9 de Marvel Rivals** aleja el rol de Estratega de la producción de daño puro, centrándose en su lugar en la utilidad pura y la curación localizada. A varios apoyos se les han eliminado sus bonificaciones de daño de Team-Up en favor de mejoras directas en la curación.
+
+<Steps>
+  <Step num="1" title="Analizar el Cambio de ÍDOLO de Luna Snow">
+    Luna Snow pierde su bonificación del 10% de daño propio de Ídolo Número Uno. A cambio, su bonificación de autocuración se duplica al **20%**, y la curación del aura pasiva del aliado vinculado aumenta al **40%**.
+  </Step>
+  <Step num="2" title="Evaluar el Nerfeo de Utilidad de Rocket Raccoon">
+    El coste de energía de la definitiva C-I-A de Rocket ha aumentado a 4300. Además, se ha añadido una caída de efectividad basada en la distancia, lo que hace que el aumento de daño y la salud adicional decaigan a partir de los 8 metros, hasta un 60% a los 20 metros.
+  </Step>
+  <Step num="3" title="Revisar la Compensación de Cloak & Dagger">
+    Para compensar la pérdida de la bonificación de curación del 15% de Ancla de Team-Up, se mejora su curación de Fuerza de Luz base: la curación por impacto directo sube a **15**, y la curación del hechizo persistente sube a **25**.
+  </Step>
+</Steps>
+
+### Ajustes de Curación y Salud de Estrategas
+
+| Estratega | Cambio de Salud | Ajustes de Habilidades de Curación |
+|---|---|---|---|
+| **Adam Warlock** | 250 a **275** | Daño de Cúmulo Cósmico aumentado a **35** |
+| **Gambit** | Base | Curación de Cartas Cinéticas aumentada a **30** |
+| **Invisible Woman** | Base | Curación de orbe saliente aumentada a **50**; curación de retorno a **40** |
+| **Mantis** | Base | Flor de curación mejorada cuando se empareja con Star-Lord |
+| **Ultron** | Base | Curación del dron de Cortafuegos Imperativo aumentada a **35/s** |
+| **White Fox** | Base | Tiempo de reutilización de Santuario Espiritual aumentado a **15s**; Salud de definitiva hasta **1200** |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Objetivos de la Temporada 9">
+
+Para aprovechar al máximo los masivos ajustes de equilibrio y dominar los nuevos sistemas, los jugadores deben centrarse en adaptarse a las mecánicas de escudo y a las composiciones de equipo.
+
+<Checklist
+  id="season-9-goals"
+  title="Hitos Esenciales de la Temporada 9:"
+  items={[
+    "Dominar la regla de los 5 segundos para Escudos Regenerativos en héroes de dive",
+    "Adaptarse al ritmo más lento de las definitivas en los tres roles",
+    "Probar los nuevos equipamientos de Team-Up duales en la sala de aparición",
+    "Practicar las nuevas mecánicas de impulso de vuelo libre de Hela en forma de Cuervo",
+    "Crear composiciones de equipo en torno a los mejorados Doctor Strange y Thor"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el cambio más importante en el parche de la Temporada 9 de Marvel Rivals?",
+    answer: "Los cambios más importantes son la introducción de la mecánica de Escudos Regenerativos para héroes móviles, la reducción global en la generación de energía de las definitivas y la eliminación completa de las Anclas de Team-Up que potenciaban estadísticas."
+  },
+  {
+    question: "¿Cómo funcionan los Escudos Regenerativos?",
+    answer: "Los Escudos Regenerativos actúan como la salud base, pero se regeneran automáticamente por completo en 5 segundos si logras evitar recibir daño durante 5 segundos consecutivos."
+  },
+  {
+    question: "¿Por qué mi héroe favorito perdió salud en la Temporada 9?",
+    answer: "NetEase eliminó el sistema pasivo de Anclas de Team-Up que anteriormente otorgaba salud adicional. Muchos héroes vieron sus estadísticas base ajustadas o recibieron Escudos Regenerativos para compensar."
+  },
+  {
+    question: "¿Es Rocket Raccoon más débil en este parche?",
+    answer: "Sí. Aunque su curación base recibió ajustes menores, su habilidad definitiva cuesta más energía y ahora sufre una caída de efectividad basada en la distancia, reduciendo su eficacia a rangos largos."
+  }
+]} />
+
+</Section>

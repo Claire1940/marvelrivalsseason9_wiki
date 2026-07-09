@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "battlepass": [
+      {
+        "slug": "marvel-rivals-season-9-battle-pass",
+        "file": "marvel-rivals-season-9-battle-pass"
+      },
+      {
+        "slug": "marvel-rivals-season-9-battlepass",
+        "file": "marvel-rivals-season-9-battlepass"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "marvel-rivals-season-9-characters",
+        "file": "marvel-rivals-season-9-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-first-hero",
+        "file": "marvel-rivals-season-9-first-hero"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes",
+        "file": "marvel-rivals-season-9-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-jubilee",
+        "file": "marvel-rivals-season-9-jubilee"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-characters",
+        "file": "marvel-rivals-season-9-new-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-heroes",
+        "file": "marvel-rivals-season-9-new-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-next-character",
+        "file": "marvel-rivals-season-9-next-character"
+      },
+      {
+        "slug": "marvel-rivals-season-9-the-hood",
+        "file": "marvel-rivals-season-9-the-hood"
+      },
+      {
+        "slug": "marvel-rivals-season-9-upcoming-characters",
+        "file": "marvel-rivals-season-9-upcoming-characters"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "marvel-rivals-season-9-character-leaks",
+        "file": "marvel-rivals-season-9-character-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-green-goblin",
+        "file": "marvel-rivals-season-9-green-goblin"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes-prediction",
+        "file": "marvel-rivals-season-9-heroes-prediction"
+      },
+      {
+        "slug": "marvel-rivals-season-9-leaks",
+        "file": "marvel-rivals-season-9-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-miller-ross",
+        "file": "marvel-rivals-season-9-miller-ross"
+      },
+      {
+        "slug": "marvel-rivals-season-9-rumors",
+        "file": "marvel-rivals-season-9-rumors"
+      },
+      {
+        "slug": "marvel-rivals-season-9-speculation",
+        "file": "marvel-rivals-season-9-speculation"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teased-characters",
+        "file": "marvel-rivals-season-9-teased-characters"
+      }
+    ],
+    "patch": [
+      {
+        "slug": "marvel-rivals-season-9-adjustments",
+        "file": "marvel-rivals-season-9-adjustments"
+      },
+      {
+        "slug": "marvel-rivals-season-9-balance-changes",
+        "file": "marvel-rivals-season-9-balance-changes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-black-widow-rework",
+        "file": "marvel-rivals-season-9-black-widow-rework"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs-and-nerfs",
+        "file": "marvel-rivals-season-9-buffs-and-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs",
+        "file": "marvel-rivals-season-9-buffs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-nerfs",
+        "file": "marvel-rivals-season-9-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch-notes",
+        "file": "marvel-rivals-season-9-patch-notes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch",
+        "file": "marvel-rivals-season-9-patch"
+      }
+    ],
+    "release": [
+      {
+        "slug": "marvel-rivals-season-9-countdown",
+        "file": "marvel-rivals-season-9-countdown"
+      },
+      {
+        "slug": "marvel-rivals-season-9-date",
+        "file": "marvel-rivals-season-9-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-live-stream",
+        "file": "marvel-rivals-season-9-live-stream"
+      },
+      {
+        "slug": "marvel-rivals-season-9-premiere",
+        "file": "marvel-rivals-season-9-premiere"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release-date",
+        "file": "marvel-rivals-season-9-release-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release",
+        "file": "marvel-rivals-season-9-release"
+      },
+      {
+        "slug": "marvel-rivals-season-9-start-date",
+        "file": "marvel-rivals-season-9-start-date"
+      }
+    ],
+    "teamups": [
+      {
+        "slug": "marvel-rivals-season-9-duelist-team-ups",
+        "file": "marvel-rivals-season-9-duelist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-team-ups",
+        "file": "marvel-rivals-season-9-new-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-strategist-team-ups",
+        "file": "marvel-rivals-season-9-strategist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-team-ups",
+        "file": "marvel-rivals-season-9-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teamups",
+        "file": "marvel-rivals-season-9-teamups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-vanguard-team-ups",
+        "file": "marvel-rivals-season-9-vanguard-team-ups"
+      }
+    ]
+  },
+  "es": {
+    "battlepass": [
+      {
+        "slug": "marvel-rivals-season-9-battle-pass",
+        "file": "marvel-rivals-season-9-battle-pass"
+      },
+      {
+        "slug": "marvel-rivals-season-9-battlepass",
+        "file": "marvel-rivals-season-9-battlepass"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "marvel-rivals-season-9-characters",
+        "file": "marvel-rivals-season-9-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-first-hero",
+        "file": "marvel-rivals-season-9-first-hero"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes",
+        "file": "marvel-rivals-season-9-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-jubilee",
+        "file": "marvel-rivals-season-9-jubilee"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-characters",
+        "file": "marvel-rivals-season-9-new-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-heroes",
+        "file": "marvel-rivals-season-9-new-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-next-character",
+        "file": "marvel-rivals-season-9-next-character"
+      },
+      {
+        "slug": "marvel-rivals-season-9-the-hood",
+        "file": "marvel-rivals-season-9-the-hood"
+      },
+      {
+        "slug": "marvel-rivals-season-9-upcoming-characters",
+        "file": "marvel-rivals-season-9-upcoming-characters"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "marvel-rivals-season-9-character-leaks",
+        "file": "marvel-rivals-season-9-character-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-green-goblin",
+        "file": "marvel-rivals-season-9-green-goblin"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes-prediction",
+        "file": "marvel-rivals-season-9-heroes-prediction"
+      },
+      {
+        "slug": "marvel-rivals-season-9-leaks",
+        "file": "marvel-rivals-season-9-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-miller-ross",
+        "file": "marvel-rivals-season-9-miller-ross"
+      },
+      {
+        "slug": "marvel-rivals-season-9-rumors",
+        "file": "marvel-rivals-season-9-rumors"
+      },
+      {
+        "slug": "marvel-rivals-season-9-speculation",
+        "file": "marvel-rivals-season-9-speculation"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teased-characters",
+        "file": "marvel-rivals-season-9-teased-characters"
+      }
+    ],
+    "patch": [
+      {
+        "slug": "marvel-rivals-season-9-adjustments",
+        "file": "marvel-rivals-season-9-adjustments"
+      },
+      {
+        "slug": "marvel-rivals-season-9-balance-changes",
+        "file": "marvel-rivals-season-9-balance-changes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-black-widow-rework",
+        "file": "marvel-rivals-season-9-black-widow-rework"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs-and-nerfs",
+        "file": "marvel-rivals-season-9-buffs-and-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs",
+        "file": "marvel-rivals-season-9-buffs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-nerfs",
+        "file": "marvel-rivals-season-9-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch-notes",
+        "file": "marvel-rivals-season-9-patch-notes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch",
+        "file": "marvel-rivals-season-9-patch"
+      }
+    ],
+    "release": [
+      {
+        "slug": "marvel-rivals-season-9-countdown",
+        "file": "marvel-rivals-season-9-countdown"
+      },
+      {
+        "slug": "marvel-rivals-season-9-date",
+        "file": "marvel-rivals-season-9-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-live-stream",
+        "file": "marvel-rivals-season-9-live-stream"
+      },
+      {
+        "slug": "marvel-rivals-season-9-premiere",
+        "file": "marvel-rivals-season-9-premiere"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release-date",
+        "file": "marvel-rivals-season-9-release-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release",
+        "file": "marvel-rivals-season-9-release"
+      },
+      {
+        "slug": "marvel-rivals-season-9-start-date",
+        "file": "marvel-rivals-season-9-start-date"
+      }
+    ],
+    "teamups": [
+      {
+        "slug": "marvel-rivals-season-9-duelist-team-ups",
+        "file": "marvel-rivals-season-9-duelist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-team-ups",
+        "file": "marvel-rivals-season-9-new-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-strategist-team-ups",
+        "file": "marvel-rivals-season-9-strategist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-team-ups",
+        "file": "marvel-rivals-season-9-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teamups",
+        "file": "marvel-rivals-season-9-teamups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-vanguard-team-ups",
+        "file": "marvel-rivals-season-9-vanguard-team-ups"
+      }
+    ]
+  },
+  "pt": {
+    "battlepass": [
+      {
+        "slug": "marvel-rivals-season-9-battle-pass",
+        "file": "marvel-rivals-season-9-battle-pass"
+      },
+      {
+        "slug": "marvel-rivals-season-9-battlepass",
+        "file": "marvel-rivals-season-9-battlepass"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "marvel-rivals-season-9-characters",
+        "file": "marvel-rivals-season-9-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-first-hero",
+        "file": "marvel-rivals-season-9-first-hero"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes",
+        "file": "marvel-rivals-season-9-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-jubilee",
+        "file": "marvel-rivals-season-9-jubilee"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-characters",
+        "file": "marvel-rivals-season-9-new-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-heroes",
+        "file": "marvel-rivals-season-9-new-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-next-character",
+        "file": "marvel-rivals-season-9-next-character"
+      },
+      {
+        "slug": "marvel-rivals-season-9-the-hood",
+        "file": "marvel-rivals-season-9-the-hood"
+      },
+      {
+        "slug": "marvel-rivals-season-9-upcoming-characters",
+        "file": "marvel-rivals-season-9-upcoming-characters"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "marvel-rivals-season-9-character-leaks",
+        "file": "marvel-rivals-season-9-character-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-green-goblin",
+        "file": "marvel-rivals-season-9-green-goblin"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes-prediction",
+        "file": "marvel-rivals-season-9-heroes-prediction"
+      },
+      {
+        "slug": "marvel-rivals-season-9-leaks",
+        "file": "marvel-rivals-season-9-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-miller-ross",
+        "file": "marvel-rivals-season-9-miller-ross"
+      },
+      {
+        "slug": "marvel-rivals-season-9-rumors",
+        "file": "marvel-rivals-season-9-rumors"
+      },
+      {
+        "slug": "marvel-rivals-season-9-speculation",
+        "file": "marvel-rivals-season-9-speculation"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teased-characters",
+        "file": "marvel-rivals-season-9-teased-characters"
+      }
+    ],
+    "patch": [
+      {
+        "slug": "marvel-rivals-season-9-adjustments",
+        "file": "marvel-rivals-season-9-adjustments"
+      },
+      {
+        "slug": "marvel-rivals-season-9-balance-changes",
+        "file": "marvel-rivals-season-9-balance-changes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-black-widow-rework",
+        "file": "marvel-rivals-season-9-black-widow-rework"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs-and-nerfs",
+        "file": "marvel-rivals-season-9-buffs-and-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs",
+        "file": "marvel-rivals-season-9-buffs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-nerfs",
+        "file": "marvel-rivals-season-9-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch-notes",
+        "file": "marvel-rivals-season-9-patch-notes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch",
+        "file": "marvel-rivals-season-9-patch"
+      }
+    ],
+    "release": [
+      {
+        "slug": "marvel-rivals-season-9-countdown",
+        "file": "marvel-rivals-season-9-countdown"
+      },
+      {
+        "slug": "marvel-rivals-season-9-date",
+        "file": "marvel-rivals-season-9-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-live-stream",
+        "file": "marvel-rivals-season-9-live-stream"
+      },
+      {
+        "slug": "marvel-rivals-season-9-premiere",
+        "file": "marvel-rivals-season-9-premiere"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release-date",
+        "file": "marvel-rivals-season-9-release-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release",
+        "file": "marvel-rivals-season-9-release"
+      },
+      {
+        "slug": "marvel-rivals-season-9-start-date",
+        "file": "marvel-rivals-season-9-start-date"
+      }
+    ],
+    "teamups": [
+      {
+        "slug": "marvel-rivals-season-9-duelist-team-ups",
+        "file": "marvel-rivals-season-9-duelist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-team-ups",
+        "file": "marvel-rivals-season-9-new-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-strategist-team-ups",
+        "file": "marvel-rivals-season-9-strategist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-team-ups",
+        "file": "marvel-rivals-season-9-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teamups",
+        "file": "marvel-rivals-season-9-teamups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-vanguard-team-ups",
+        "file": "marvel-rivals-season-9-vanguard-team-ups"
+      }
+    ]
+  },
+  "ru": {
+    "battlepass": [
+      {
+        "slug": "marvel-rivals-season-9-battle-pass",
+        "file": "marvel-rivals-season-9-battle-pass"
+      },
+      {
+        "slug": "marvel-rivals-season-9-battlepass",
+        "file": "marvel-rivals-season-9-battlepass"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "marvel-rivals-season-9-characters",
+        "file": "marvel-rivals-season-9-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-first-hero",
+        "file": "marvel-rivals-season-9-first-hero"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes",
+        "file": "marvel-rivals-season-9-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-jubilee",
+        "file": "marvel-rivals-season-9-jubilee"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-characters",
+        "file": "marvel-rivals-season-9-new-characters"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-heroes",
+        "file": "marvel-rivals-season-9-new-heroes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-next-character",
+        "file": "marvel-rivals-season-9-next-character"
+      },
+      {
+        "slug": "marvel-rivals-season-9-the-hood",
+        "file": "marvel-rivals-season-9-the-hood"
+      },
+      {
+        "slug": "marvel-rivals-season-9-upcoming-characters",
+        "file": "marvel-rivals-season-9-upcoming-characters"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "marvel-rivals-season-9-character-leaks",
+        "file": "marvel-rivals-season-9-character-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-green-goblin",
+        "file": "marvel-rivals-season-9-green-goblin"
+      },
+      {
+        "slug": "marvel-rivals-season-9-heroes-prediction",
+        "file": "marvel-rivals-season-9-heroes-prediction"
+      },
+      {
+        "slug": "marvel-rivals-season-9-leaks",
+        "file": "marvel-rivals-season-9-leaks"
+      },
+      {
+        "slug": "marvel-rivals-season-9-miller-ross",
+        "file": "marvel-rivals-season-9-miller-ross"
+      },
+      {
+        "slug": "marvel-rivals-season-9-rumors",
+        "file": "marvel-rivals-season-9-rumors"
+      },
+      {
+        "slug": "marvel-rivals-season-9-speculation",
+        "file": "marvel-rivals-season-9-speculation"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teased-characters",
+        "file": "marvel-rivals-season-9-teased-characters"
+      }
+    ],
+    "patch": [
+      {
+        "slug": "marvel-rivals-season-9-adjustments",
+        "file": "marvel-rivals-season-9-adjustments"
+      },
+      {
+        "slug": "marvel-rivals-season-9-balance-changes",
+        "file": "marvel-rivals-season-9-balance-changes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-black-widow-rework",
+        "file": "marvel-rivals-season-9-black-widow-rework"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs-and-nerfs",
+        "file": "marvel-rivals-season-9-buffs-and-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-buffs",
+        "file": "marvel-rivals-season-9-buffs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-nerfs",
+        "file": "marvel-rivals-season-9-nerfs"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch-notes",
+        "file": "marvel-rivals-season-9-patch-notes"
+      },
+      {
+        "slug": "marvel-rivals-season-9-patch",
+        "file": "marvel-rivals-season-9-patch"
+      }
+    ],
+    "release": [
+      {
+        "slug": "marvel-rivals-season-9-countdown",
+        "file": "marvel-rivals-season-9-countdown"
+      },
+      {
+        "slug": "marvel-rivals-season-9-date",
+        "file": "marvel-rivals-season-9-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-live-stream",
+        "file": "marvel-rivals-season-9-live-stream"
+      },
+      {
+        "slug": "marvel-rivals-season-9-premiere",
+        "file": "marvel-rivals-season-9-premiere"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release-date",
+        "file": "marvel-rivals-season-9-release-date"
+      },
+      {
+        "slug": "marvel-rivals-season-9-release",
+        "file": "marvel-rivals-season-9-release"
+      },
+      {
+        "slug": "marvel-rivals-season-9-start-date",
+        "file": "marvel-rivals-season-9-start-date"
+      }
+    ],
+    "teamups": [
+      {
+        "slug": "marvel-rivals-season-9-duelist-team-ups",
+        "file": "marvel-rivals-season-9-duelist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-new-team-ups",
+        "file": "marvel-rivals-season-9-new-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-strategist-team-ups",
+        "file": "marvel-rivals-season-9-strategist-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-team-ups",
+        "file": "marvel-rivals-season-9-team-ups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-teamups",
+        "file": "marvel-rivals-season-9-teamups"
+      },
+      {
+        "slug": "marvel-rivals-season-9-vanguard-team-ups",
+        "file": "marvel-rivals-season-9-vanguard-team-ups"
+      }
+    ]
+  }
+}
