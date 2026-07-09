@@ -10,14 +10,7 @@
       "twitterDescription": "Marvel Rivals Season 9 Wiki — heroes, tier lists, Season 9 'Mystery of Thebes' updates, the new map, and the latest redeem codes."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
