@@ -55,11 +55,11 @@ function main() {
   let total = 0
 
   if (!fs.existsSync(CONTENT_DIR)) {
-    // content/ 缺失（如内容清理→重建的过渡期）：生成空清单而非硬失败，
-    // 避免 CI 构建被阻塞。后续内容阶段填充 content/ 后会重新生成完整清单。
+    // 空壳站（0 文章、无 content/ 目录）：产空清单而非报错，静态导出只含首页/固定页，
+    // 不阻断 CI 构建（否则 deploy-workers.yml 的 manifest 步骤 exit 1，空壳站全栽）。
     fs.mkdirSync(OUT_DIR, { recursive: true })
-    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
-    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，已生成空清单`)
+    fs.writeFileSync(OUT_FILE, JSON.stringify(manifest, null, 2) + '\n', 'utf8')
+    console.log(`[content-manifest] content 目录不存在（空壳站），已写空清单: ${path.relative(ROOT, OUT_FILE)}`)
     return
   }
 
