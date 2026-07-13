@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Heart, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Parche de emergencia de la Temporada 9 de Marvel Rivals: Cambios de balance completos y análisis del meta",
+  description: "Desglose detallado del parche de emergencia de la Temporada 9 de Marvel Rivals, que incluye mejoras para Black Widow y Invisible Woman, y nerfs importantes para Psylocke.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+9+Emergency+Patch",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Marvel Rivals Season 9"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **parche de emergencia de la Temporada 9 de Marvel Rivals** introduce un aumento del 10% en la eficiencia de conversión de curación a energía para todos los Estrategas.
+- **Psylocke** recibió nerfs masivos en su daño base y en el rango de caída de daño, lo que la hace descender del meta de nivel superior.
+- **Invisible Woman** y **Jubilee** recibieron mejoras significativas en su producción de curación y en los costos de sus habilidades Ultimate.
+- **Black Widow** y **Cyclops** obtuvieron aumentos de daño para compensar la eliminación de los anclajes de Team-Up heredados.
+- Las composiciones de **Triple Soporte** siguen siendo una preocupación dominante a pesar de los ajustes a Mantis y Ultron.
+</Callout>
+
+<Section icon={Zap} title="Cambios Globales y Eficiencia de Energía de los Estrategas">
+
+El lanzamiento de la Temporada 9 trajo cambios inmediatos en el panorama competitivo, lo que llevó al equipo de desarrollo a lanzar una respuesta de emergencia rápida. El principal ajuste global se centra en la sostenibilidad del rol de Estratega. Al aumentar la eficiencia de conversión de curación a energía del 60% al 70%, los desarrolladores buscan aliviar la \"tortura\" que a menudo sienten los jugadores en las composiciones de doble soporte.
+
+**Aspectos Destacados del Video:**
+- Análisis de la mejora del 70% en la conversión de energía para todos los Estrategas.
+- Discusión sobre la dominancia actual del meta de \"Triple Soporte\".
+- Desglose de por qué jugar con ciertos soportes todavía se siente estresante.
+- Reacciones iniciales a los ajustes de Psylocke y Gambit.
+
+<YouTubeEmbed videoId="GsJ_uAmIrfE" title="Marvel Rivals Season 9 Emergency Patch Analysis" />
+
+Este cambio es particularmente vital porque el alto rendimiento de daño en la Temporada 9 ha dificultado mantener una línea frontal. Mientras que los equipos de triple soporte se consideran actualmente \"rotos sin remedio\" debido a su enorme sustento, los equipos de doble soporte a menudo luchan por mantenerse al día con el daño de ráfaga de los Duelistas mejorados. Este ajuste de energía permite a los soportes acceder a sus Ultimates más rápido, proporcionando una utilidad defensiva más frecuente.
+
+| Tipo de Cambio | Valor Anterior | Nuevo Valor | Nivel de Impacto |
+| :--- | :--- | :--- | :--- |
+| Curación a Energía | 60% de Eficiencia | 70% de Eficiencia | Alto |
+| Sustento de Estratega | Bajo | Moderado | Medio |
+| Frecuencia de Ultimate | Estándar | Incrementada | Alto |
+
+<Callout type="tip" title="Consejo de Pro">
+Los Estrategas deben concentrarse en una curación constante al principio de la pelea para aprovechar la nueva tasa de conversión del 70%, asegurando que las Ultimates como Límite Invisible o El Destino de Ambos Mundos estén disponibles para cada enfrentamiento importante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Balance de Duelistas: La Caída de Psylocke y el Ascenso de Black Widow">
+
+El **parche de emergencia de la Temporada 9 de Marvel Rivals** ha reconfigurado por completo la lista de niveles de Duelistas. Psylocke, anteriormente considerada una amenaza de \"Nivel Triple S\", ha sido golpeada con una serie de fuertes nerfs diseñados para limitar su dominio en las salas de alto rango. Por el contrario, los héroes de hitscan como Black Widow y Cyclops recibieron aumentos muy necesarios en su daño mínimo.
+
+<CardGrid cols={3}>
+  <Card title="Nerfs a Psylocke">
+    - **Daño Base**: Reducido de 13 a 12.
+    - **Inicio de Caída**: Reducido de 15m a 8m.
+    - **Daño de Ilusión**: Recortado del 30% al 15%.
+  </Card>
+  <Card title="Mejoras a Black Widow">
+    - **Daño del Rifle**: Incrementado de 40 a 45.
+    - **Caída Máxima**: Mejorada del 80% al 75%.
+    - **Daño de Explosión**: La carga completa ahora golpea por 70.
+  </Card>
+  <Card title="Ajustes a Cyclops">
+    - **Ráfaga Óptica**: Daño por pulso sube a 22.
+    - **Fuerza de Rebote**: Daño por impacto directo sube a 75.
+    - **Team-Up**: Enfriamiento de Gambit reducido a 15s.
+  </Card>
+</CardGrid>
+
+La efectividad de Psylocke ahora está fuertemente ligada a su proximidad al objetivo. Al reducir a la mitad el daño de su ilusión y acortar drásticamente la caída de su daño, ya no puede atacar de forma segura desde el rango medio. Black Widow, sin embargo, ahora sirve como un contraataque más confiable para los voladores y las amenazas de largo alcance, con su Rifle de la Habitación Roja viendo un aumento de daño del 12.5% por disparo.
+
+| Héroe | Cambio Clave | Ajuste de Estadísticas | Impacto en el Rol |
+| :--- | :--- | :--- | :--- |
+| Psylocke | Rango/Daño | Caída de 15m a 8m | Nerf Masivo |
+| Black Widow | Daño Base | 40 a 45 por golpe | Mejora Mayor |
+| Cyclops | Ráfaga Óptica | 21 a 22 por pulso | Mejora Menor |
+| Phoenix | Llamas Cósmicas | 55 to 60 por golpe | Mejora Menor |
+| Iron Man | Team-Up con Thor | 84/s a 70/s (Exterior) | Nerf Moderado |
+
+<Callout type="warning" title="Advertencia">
+Los jugadores de Psylocke ahora deben comprometerse mucho más en la retaguardia enemiga para asegurar las bajas. Su estilo de juego \"seguro\" anterior ya no es viable debido a la restricción de caída de 8m.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Revisión de Estrategas: Mejoras de Curación y Utilidad">
+
+La clase Estratega recibió la atención más significativa en este parche. Si bien la mejora global de energía ayuda a todos, héroes como Invisible Woman y Gambit recibieron mejoras directas en sus kits para hacerlos más competitivos frente a opciones de primer nivel como Luna Snow.
+
+<Steps>
+  <Step num="1" title="Aumento de Curación de Invisible Woman">
+    Su autocuración de Escudo Guardián aumentó a 20/s, y la curación de su Ultimate aumentó a 200/s. El costo de energía para su Ultimate también se redujo a 4300.
+  </Step>
+  <Step num="2" title="Mejora de Sustento de Gambit">
+    Después de activar Corazones Curativos, la autocuración de Gambit saltó de 20/s a 30/s, mejorando significativamente su supervivencia durante las incursiones.
+  </Step>
+  <Step num="3" title="Mejora de Utilidad de Jubilee">
+    La Bola Floreciente de Jubilee ahora requiere menos carga (250) y proporciona una curación base más alta (35/s), lo que la convierte en una sanadora secundaria más viable.
+  </Step>
+  <Step num="4" title="Costo de Ultimate de Luna Snow">
+    Aunque Luna sigue siendo fuerte, el costo de su Ultimate se redujo ligeramente a 4800 para mantenerla en línea con el nuevo ritmo.
+  </Step>
+</Steps>
+
+A pesar de estas mejoras, la comunidad sigue preocupada por White Fox. Mientras que casi todos los demás soportes recibieron un aumento en su producción de curación o una reducción en el costo de su Ultimate, White Fox permanece intacta, lo que efectivamente la empuja más abajo en la lista de prioridades. Su producción de curación actualmente se ve superada por la recientemente mejorada Invisible Woman y el rendimiento constantemente alto de Luna Snow.
+
+| Estratega | Mejora Primaria | Mejora Secundaria | Estado en el Meta |
+| :--- | :--- | :--- | :--- |
+| Invisible Woman | +20/s Curación de Ult | -200 Costo de Ult | En Ascenso |
+| Gambit | +10/s Autocuración | +15 Impulso de Puente | Situacional |
+| Jubilee | +5/s Curación Base | -200 Costo de Ult | Mejorada |
+| Rocket Raccoon | Mejoras de Esporas/Bellotas | Escala de Team-Up | Estable |
+
+<Callout type="success" title="Éxito">
+Invisible Woman es ahora una opción de primer nivel para mapas de captura de puntos donde su mayor autocuración de Escudo Guardián le permite disputar objetivos por más tiempo que antes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sinergia de Team-Up y Análisis de Nerfs">
+
+Los Team-Ups siempre han sido una piedra angular de Marvel Rivals, y este parche de emergencia aborda varias interacciones \"rotas\" que dominaban el meta de la Temporada 9. Específicamente, las combinaciones de Iron Man/Thor y Ultron/Peni Parker fueron el objetivo para devolverlas a un rango saludable.
+
+**Cambios Clave en Team-Up:**
+- **Iron Man y Thor**: El daño del anillo exterior del Unirrayo se redujo significativamente. Esto evita que Iron Man derrita a equipos enteros simplemente apuntando en su dirección general.
+- **Ultron y Peni Parker**: La curación proporcionada por los drones unidos a los aliados se redujo drásticamente de 35/s a 15/s. Además, el tiempo de reutilización se incrementó a 20s.
+- **Mantis y Star-Lord**: La curación mejorada se redujo a (15 + 3.5% de Salud Máxima), controlando las composiciones de incursión \"invencibles\".
+- **Psylocke y Emma Frost**: La salud adicional y la duración de la ilusión fueron nerfeadas para evitar que Psylocke tenga demasiada vida efectiva.
+
+| Pareja de Team-Up | Habilidad Afectada | Descripción del Cambio |
+| :--- | :--- | :--- |
+| Iron Man / Thor | Unirrayo (Exterior) | 84/s bajó a 70/s |
+| Ultron / Peni | Drones de Soporte | 35/s bajó a 15/s |
+| Mantis / Star-Lord | Flor Curativa | 17.5 bajó a 15 base |
+| Psylocke / Emma | Shurikens de Ala | Vida Extra de 15 a 12 |
+
+<Callout type="info" title="Nota de Team-Up">
+El nerf a Ultron es particularmente pesado. Con una curación de 15/s, los drones ahora sirven más para utilidad y un sustento menor que como una herramienta defensiva primaria durante fuego pesado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Objetivos Post-Parche">
+
+Para adaptarse al **parche de emergencia de la Temporada 9 de Marvel Rivals**, los jugadores deben cambiar su enfoque hacia los Duelistas de hitscan y los Estrategas de alta utilidad. La era del dominio de Psylocke ha dado paso a un entorno más equilibrado, aunque todavía muy centrado en los soportes.
+
+<Checklist
+  id="patch-adaptation"
+  title="Nuevos Objetivos del Meta:"
+  items={[
+    "Dominar a Black Widow para contrarrestar la mayor presencia de voladores.",
+    "Practicar las nuevas rotaciones de curación de Invisible Woman para el juego competitivo.",
+    "Evitar elegir a White Fox hasta que se aborde su producción de curación.",
+    "Ajustar el rango de enfrentamiento de Psylocke para permanecer dentro del punto óptimo de 8m.",
+    "Monitorear los niveles de energía de los Estrategas para aprovechar ciclos de Ultimate más rápidos."
+  ]}
+/>
+
+Los desarrolladores han indicado que están observando de cerca la \"telemetría del campo de batalla\". Si las mejoras actuales para Gambit y Luna Snow resultan ser demasiado, o si White Fox continúa teniendo dificultades, se esperan más recalibraciones en los próximos días.
+
+<Callout type="tip" title="Consejo de Estrategia">
+Con el daño del anillo exterior del Unirrayo de Iron Man nerfeado, los tanques ahora pueden proteger de manera más segura a su retaguardia sin ser vaporizados instantáneamente por un rayo potenciado por Thor.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué se nerfó tanto a Psylocke en el parche de emergencia de la Temporada 9?",
+    answer: "Psylocke era considerada de Nivel Triple S, dominando las salas con un alto daño y un rango excesivo. Los nerfs a su daño base y a su caída de daño (8m) la obligan a asumir un rol de asesina de alto riesgo y alta recompensa."
+  },
+  {
+    question: "¿Es Invisible Woman ahora una Estratega de primer nivel?",
+    answer: "Sí, las mejoras en su autocuración, la curación de su Ultimate y la reducción del costo de energía la hacen significativamente más viable, especialmente en composiciones que requieren un alto sustento en el punto."
+  },
+  {
+    question: "¿Qué pasó con el Team-Up de Iron Man y Thor?",
+    answer: "El daño del anillo exterior del Unirrayo se redujo de 84/s a 70/s. Esto hace que la habilidad sea menos opresiva para los enemigos que no están en el centro directo del rayo."
+  },
+  {
+    question: "¿El 70% de conversión de energía se aplica a todos los héroes?",
+    answer: "No, el aumento de la eficiencia de conversión de curación a energía solo se aplica a la clase Estratega, lo que les permite cargar sus Ultimates más rápido a través de la curación."
+  }
+]} />
+
+</Section>
